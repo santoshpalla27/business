@@ -1,5 +1,7 @@
 # What it is
 Laser burns or etches text/designs into the surface (no ink).
+this create the design inside the surface of the material. not on the surface. there will be depth in the design. due to engraving the design will be permanent and it will not fade away.  
+
 
 ## Business Strength
 

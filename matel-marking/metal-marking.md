@@ -1,7 +1,7 @@
 # Metal Marking (Fiber Laser)
 
 ## What it is
-Permanent laser marking on metal (steel, aluminum, brass).
+Permanent laser marking on metal (steel, aluminum, brass).   this is printed on the surface of the metal. not engraved. 
 
 ## Business Strength
 - Industrial-grade permanence
