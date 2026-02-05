@@ -6,8 +6,6 @@ first the image is printed on the paper and then it is laminated and then it is 
 
 # making process :- 
 
-## Standard Photo Frame Making Process
-
 
 ## Glass Photo Frame Making Process
 
@@ -22,7 +20,7 @@ we just print the picture on the acrylic sheet using uv printer.  and then we mo
 
 
 
-
+## Standard Photo Frame Making Process
 
 ### ✅ Step 1 – Photo Printing
 

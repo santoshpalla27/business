@@ -9,7 +9,11 @@ we can make the required design on the acrylic-wood using uv printer and cut and
 
 ## examples 
 
-in this example  products/Milky White Acrylic and base wood desined-1.webp , products/Milky White Acrylic and base wood desined-1.webp
+in this example:
+
+![Milky White Acrylic and base wood designed 1](Milky%20White%20Acrylic%20and%20base%20wood%20desined-1.webp)
+
+![Milky White Acrylic and base wood designed](Milky%20White%20Acrylic%20and%20base%20wood%20desined.webp)
 
 
 we take mliky white acrylic and cut it in the shape of the design using laser cutting.  
