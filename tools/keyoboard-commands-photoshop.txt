@@ -1,0 +1,40 @@
+
+
+ctrl + s to save the project in windows 
+command + s to save the project in mac 
+
+ctrl + z to undo 
+command + z to undo 
+
+ctrl + shift + z to redo 
+command + shift + z to redo 
+
+ctrl + +  to zoom in 
+command + + to zoom in 
+
+ctrl + - to zoom out 
+command + - to zoom out 
+
+ctrl + 0 to reset zoom 
+command + 0 to reset zoom 
+
+option + space and mouse scroll to zoom in and out
+alt + space and mouse scroll to zoom in and out
+
+hold spacebar to move the canvas
+
+ctrl + alt + shift + z to clear history 
+command + alt + shift + z to clear history 
+
+
+option + shift + command + s to save the project as new
+control + shift + command + s to save the project as new
+
+
+h and click hold to zoom out and select an area to zoom in at exact same percentage from 0
+
+ 
+
+
+
+

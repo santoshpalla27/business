@@ -1,0 +1,571 @@
+
+ocs (open create save). 
+
+go to menu and file and open -- to open a file    
+
+ctl + n -- to create a new file 
+cmd + n -- to create a new file  
+
+file is the base of the image if you to create a new 
+
+ctl + o -- to open a file 
+cmd + o -- to open a file 
+
+ctl + s -- to save a file 
+cmd + s -- to save a file 
+
+this is used to save the progess of the work  
+
+the extension is psg (photoshop document). this contains all the layers and customizations . you can edit the image later by opening the saved file 
+
+to save the file as new without distrubing the original file we use save as
+
+
+if you save an image not work of progess we go to menu and file and save as copy to same in whatever extension you want like JPEG or png etc 
+
+
+drag and drop as well 
+
+in drag and drop after opening a image the next drags will open as layer 
+
+
+
+
+          Photoshop Interface (Your Control Panel)
+
+Think of Photoshop like a cockpit. Once you know what each panel does, panic disappears.
+
+Speed and confidence come from UI familiarity.
+
+🔹 Toolbar (Left Side)
+
+What it is:
+The vertical strip of tools on the left.
+
+What it contains:
+Move Tool (V)
+Selection tools (Marquee, Lasso)
+Crop Tool
+Brush / Eraser
+Text Tool (T)
+Shape tools
+Zoom / Hand
+
+Key things beginners miss:
+Small triangle on tools = more tools hidden underneath
+You use one tool at a time, so choosing the right tool matters
+
+👉 Why it matters:
+
+Wrong tool = frustration. Right tool = control.
+
+
+similar tools are grouped together in the toolbar 
+ 
+to select the hidden tools we have to click and hold the tool and select the required tool from the dropdown menu 
+
+
+                      move tool (V)
+movetool :- 
+
+this is used to move the selected layers in the canvas 
+
+once you select the move tool you can see the options bar will change according to the move tool 
+
+for better control Deselect the auto select option in the options bar this help to move only the laser selected 
+
+
+                       Crop Tool (C)
+What it does
+Cuts unwanted areas
+Resizes canvas
+Straightens photos
+
+Key features
+
+Rule of Thirds grid (composition help)
+Straighten tool (fix tilted photos)
+
+When to use
+
+Social media sizing
+Improving composition
+Removing distractions
+
+👉 Real example
+
+Instagram post → 1080 × 1080 px
+YouTube thumbnail → 1280 × 720 px
+
+👉 Pro habit:
+Always crop before heavy editing.
+
+
+
+                               Brush Tool (B)
+
+What it does
+
+Paints color on the canvas
+Used for retouching, masking, drawing
+Core controls (Options Bar)
+
+Size
+
+Hardness
+Opacity
+Flow
+
+When to use
+
+Simple painting
+Touch-ups
+Masking (later phase)
+
+👉 Beginner truth:
+
+Brush + soft edges = 50% of Photoshop magic.
+
+
+                  Eraser Tool (E)
+What it does
+Permanently deletes pixels
+
+When to use
+Very basic edits
+Temporary learning phase
+
+⚠️ Important warning
+Professionals rarely use Eraser.
+They use Layer Masks (you’ll learn later).
+
+👉 Rule for beginners:
+Use Eraser to learn → Stop relying on it later.
+
+
+                      Zoom Tool (Z) & Hand Tool (H)
+Zoom Tool
+Zoom in/out for detail work
+Hand Tool
+Move around canvas while zoomed in
+Power shortcut
+Hold Spacebar → temporary Hand tool
+Scroll → zoom in/out
+
+👉 Why it matters
+Smooth navigation = faster work + less frustration.
+
+
+
+               Text Tool (Type Tool – T)
+
+What it does
+
+Adds editable text layers
+
+Two types
+
+Click once → headline text
+Click & drag → paragraph text
+
+Editable from
+Options Bar
+Properties Panel
+
+When to use
+
+Posters
+Thumbnails
+Social media creatives
+
+👉 Key advantage
+
+Text remains fully editable anytime.
+
+
+🔹 status bar is at the bottom of the interface 
+
+status bar shows the size of the canvas and the resolution of the canvas. (zoom percentage and pixel dimensions)  
+
+you can customize the status bar by going to the view menu and selecting the status bar option 
+
+also you can see other options by clicking of the arrow on the right of the status bar like -> 
+
+
+🔹 Options Bar (Top)
+
+What it is:
+
+Context-sensitive controls for the currently selected tool.
+
+Example:
+
+Brush selected → size, hardness, opacity appear
+Text selected → font, size, alignment appear
+
+👉 Golden rule:
+If a tool is behaving “weird”, check the Options Bar first.
+
+======================================================================================
+
+🔹 menu bar (top)
+
+The Menu Bar sits at the very top of Photoshop and controls global actions (file, image, layers, selections, view).
+
+Menus (left → right):
+File | Edit | Image | Layer | Type | Select | Filter | View | Window | Help
+
+
+--------------------------------------------------------
+
+1. File Menu — File & Project Control
+
+Purpose: Creating, opening, saving, exporting files.
+
+Important options (Beginner must-know)
+
+New → Create a new document
+Open → Open existing image
+Save → Save working file (PSD)
+Save As → Save copy / change format
+Export → Export As → JPG, PNG, WebP (for web/social)
+Close → Close file
+
+👉 Professional habit
+
+Work in PSD
+Export JPG/PNG/WebP
+
+❌ Beginner mistake: Editing directly in JPG and losing layers
+
+
+---------------------------------------------------------
+
+2. Edit Menu — Undo, Preferences & Fixes
+
+Purpose: Correcting actions and setting behavior.
+Important options
+Undo / Redo
+Step Backward / Forward
+Preferences → Performance, Interface, Units
+
+👉 When you use this
+
+Something feels “off”
+Change units (pixels, inches)
+Improve performance (RAM usage)
+
+👉 Shortcut beats menu here, but know it exists.
+
+
+----------------------------------------------------------
+
+3. Image Menu — Image Quality & Size
+
+Purpose: Image-level changes (not layers).
+
+Must-know options
+
+Image Size → Resize image (pixels, DPI)
+Canvas Size → Increase/decrease workspace
+Mode → RGB / CMYK
+Adjustments → Brightness, Contrast (basic)
+
+👉 Use Image menu when
+
+Changing resolution
+Preparing for print
+Converting RGB ↔ CMYK
+
+⚠️ Important
+Image menu affects the entire image, not one layer.
+
+
+
+----------------------------------------------------------
+
+4. Layer Menu — Layer Power Center
+
+Purpose: Everything related to layers.
+
+Beginner essentials
+
+New Layer
+Duplicate Layer
+Delete Layer
+Layer Style → Shadow, Stroke, Glow
+Merge Layers
+
+👉 Why it matters
+Photoshop is layer-based software.
+If you understand this menu, you’re halfway to pro.
+
+❌ Beginner mistake
+Flattening image too early → no editing later
+
+
+----------------------------------------------------------
+
+5. Type Menu — Text Control
+
+Purpose: Advanced text handling.
+
+Useful options
+
+Font previews
+Text alignment
+Convert text to shape (later stage)
+
+👉 For beginners
+
+Most text control happens in:
+
+Options Bar
+Properties Panel
+
+You’ll rarely open this menu early on.
+
+
+----------------------------------------------------------
+
+6. Select Menu — Selection Mastery
+
+Purpose: Selecting parts of images.
+
+Key options
+
+Select All
+Deselect
+Inverse
+Modify → Feather, Expand, Contract
+Color Range
+
+👉 When to use
+
+Background removal
+Editing only part of image
+Masking (later)
+
+👉 Rule
+If editing only part of image → Select menu is involved
+
+
+---------------------------------------------------------------
+
+7. Filter Menu — Effects & Effects Abuse Zone 😄
+
+Purpose: Apply effects to images.
+Beginner-safe filters
+Blur (Gaussian Blur)
+
+Sharpen
+
+⚠️ Warning
+Filters are powerful but easy to overuse.
+
+👉 Golden rule
+If it looks obvious → it’s overdone.
+
+
+8. View Menu — Navigation & Accuracy
+
+Purpose: How you see your document.
+
+Must-know
+
+Zoom In / Out
+Fit on Screen
+Show Rulers
+Show Grid
+Snap
+
+👉 Why it matters
+
+Alignment
+Clean designs
+Accurate spacing
+Professionals use View menu a lot.
+
+
+9. Window Menu — Panel Control
+
+Purpose: Show/hide panels.
+
+Common panels
+
+Layers
+Properties
+History
+Brushes
+
+👉 Use when
+A panel disappears and you panic 😄
+(Window → Layers brings it back)
+
+🔟 Help Menu — Learning & Support
+
+Purpose: Tutorials, updates, help docs.
+
+Good for:
+
+Built-in learning
+Tool explanations
+
+
+
+===============================================================================
+
+          panels 
+
+the right side section of the interface is the panels  . you can delete add or change the panels as per your need and can delete or minimize the panels as per your need 
+
+you can add panels from the window menu in the top section of the interface 
+
+you can reset workspace or create your own workspace with your panels 
+
+
+after editing or doing some changes in the workspace you can go the menu of window and click on workspace and click on reset workspace to reset the workspace to the saved state  
+
+
+
+🔹 Layers Panel (MOST IMPORTANT PANEL)
+
+What it is:
+
+A stack of everything in your design. 
+Think of layers like transparent sheets stacked on top of each other.
+
+ex:- there can a backgound layer with background image and there can be a text layer with text on top of the background layer  and a person layer with person image on top of the text layer  
+
+Core concepts:
+
+Each image, text, or shape = separate layer
+Top layer covers layers below
+
+You can:
+
+Hide 👁️
+Lock 🔒
+Reorder ⬆️⬇️
+Rename (VERY important habit)
+
+the top most layer with be at the top in the canvas and the bottom most layer will be at the backgound in the canvas . this order continues for all the layers  
+
+👉 Why it matters:
+
+Non-destructive editing
+Easy changes
+Professional workflow
+
+❌ Beginners who ignore layers → redo work
+✅ Professionals live inside the Layers panel
+
+
+
+🔹 Properties Panel
+
+What it is:
+
+Shows editable settings for the selected layer or tool.
+
+Examples:
+
+Text layer → font, spacing, color
+Shape layer → fill, stroke, corner radius
+Adjustment layer → brightness, contrast, curves
+
+👉 Why it matters:
+You don’t hunt menus—Photoshop shows you what’s relevant automatically.
+in the panel it records all the actions we are making by selecting the step we can undo or redo the actions 
+
+ctl + z to undo 
+ctl + shift + z to redo 
+
+cmd + z to undo 
+cmd + shift + z to redo 
+
+
+
+🔹 History Panel (Your Safety Net)
+
+What it is:
+A timeline of your actions.
+
+You can:
+
+Step backward multiple actions
+Revert mistakes without panic
+
+Limit:
+
+History resets when file closes (unless using snapshots)
+
+👉 Why it matters:
+Confidence comes from knowing nothing is permanent.
+
+
+
+
+🔹 Workspace Presets
+
+What it is:
+Pre-arranged layouts of panels for different tasks.
+
+Common presets:
+
+Essentials (default)
+Photography
+Graphic and Web
+Motion
+Painting
+
+You can also:
+
+Rearrange panels
+Save your own workspace
+
+👉 Why it matters:
+Right workspace = faster work, less clutter, less confusion.
+
+
+
+
+
+=============================================================================
+
+             the canvas section 
+
+
+this is the section where we have the file or image or canvas or design we are working on  
+
+
+we can select multiple image in Canvas they will show as tabs 
+
+we can pull the tabs out of the canvas section and place them anywhere in the interface  of can arrage them back by going to menu arrage and consolidate all to tabs 
+
+we can also compare the images side by side by going to menu arrage and compare all windows side by side  
+
+
+we can set the custom color to the canvas by right click on the canvas and select the background color or the custom color helpfull for the beginners and social media
+ex:- how a thumbnail(edited image) looks on the youtube interface like the web color 
+
+
+
+drag and drop and image to the tab then it will be a new image but if you drag and drop the image to the canvas it will be a new layer 
+
+
+
+
+
+===========================================================================
+
+                           Transform Tool
+
+Transform lets you change the size, rotation, shape, and perspective of a layer or selection.
+
+Shortcut: Ctrl + T (Windows) / Cmd + T (Mac)
+
+This is called Free Transform.
+
+👉 If you know Transform well, layouts become fast and clean.
+

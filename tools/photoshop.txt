@@ -1,0 +1,27 @@
+
+
+home screen shows all the projects you are working on
+
+
+command + s to save the project in mac 
+
+ctrl + s to save the project in windows 
+
+
+
+you click on the photoshop icon on top left to go to the workspace and home on the same place to get back to home 
+
+
+
+*****  3 Major things in photoshop *****
+
+left side is the tools panel
+
+top bar is the options bar
+
+right side is the layers panel  (this is the most important panel)  you have all the customizations here  and make all the funtions 
+
+center is the canvas where you create your design 
+
+
+

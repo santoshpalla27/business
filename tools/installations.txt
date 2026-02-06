@@ -1,0 +1,141 @@
+Install Full or Minimum Adobe Creative Cloud from the Extra folder first.
+Minimum ACC Runtime_x86_64 (Intel) or Runtime_ARM64 (ARM) is fine.
+
+
+Now Install Adobe Photoshop
+
+How to apply medicine:
+go to the applications in the finder and double click on the app and then right click on the icon and click show contents 
+Right click on Adobe Photoshop 2026, show content and Contents.
+From MacOS folder, remove “Adobe Photoshop 2026” and “Dynamic folder” and paste the cracked one
+
+the below can be hidden try gpt or access directly 
+
+Main UXP folders (system-wide)
+
+This is the most common one:
+
+/Library/Application Support/Adobe/UXP
+
+
+To get there quickly:
+
+Open Finder
+
+Click Go in the menu bar
+
+Hold Option (⌥) → Library appears
+
+Navigate to:
+
+Application Support → Adobe → UXP
+
+User-specific UXP folder
+
+Some plugins/extensions live here:
+
+~/Library/Application Support/Adobe/UXP
+
+
+(~ = your home folder)
+
+
+
+Same process for com.adobe.cai.uxp.panel. Go to Required, UXP, remove “com.adobe.cai.uxp.panel” and paste the cracked one.
+
+
+
+Add these strings on your Host (I recommend to use this app for an easy process: iHosts https://apps.apple.com/us/app/ihosts-etc-hosts-editor/id1102004240?mt=12)
+
+https://a.dove.isdumb.one/list.txt.   -- this has all the hosts 
+
+Block as well with your personal firewall.
+
+IF you get a piracy nag, use the software with your net off. 
+Sorry guys, Adobe is a pain of ass for Mac.
+
+
+Enjoy
+
+
+
+
+
+
+
+best alternatives for adobe
+r/adobeanimate icon
+Sources: r/FuckAdobe, r/linux4noobs, r/adobeanimate +7 more
+Best Alternatives for Adobe Products
+Photo and Image Editing Alternatives
+Affinity Photo: "Affinity Photo is a good Photoshop alternative"
+
+Capture One: "If you have a professional practice and are looking for productivity, Capture One is the perfect replacement for Lightroom"
+
+Photomator: "I have recently started using Photomator"
+
+Pixelmator Pro: "Mac users - Pixelmator Pro is the way to go so"
+
+GIMP: "I use GIMP for most photshop-esque needs. It's free."
+
+Krita: "in my opinion krita is a better Photoshop alternative than gimp."
+
+Animation Alternatives
+Tahoma2D: "Tahoma2D is a more intuitive fork from OpenToonz"
+
+Moho: "Moho pro 14 is giving $100 discount right now I saw. Because of Animate. So it's $299 onetime payment."
+
+Flare: "Flare-Animate"
+
+Video Editing Alternatives
+DaVinci Resolve: "DaVinci Resolve is really good, but you need Studio version to use it on Linux since it doesn't decode H.264 and H.265."
+
+Kdenlive: "Kdenlive and Davinci resolve are good premiere alternatives."
+
+Filmora: "For Premiere Pro, use budget-friendly Filmora."
+
+PDF Alternatives
+Foxit Reader/Editor: "Foxit Reader, take a look."
+
+PDF-XChange Editor: "PDF-XChange Editor is good, has most of the features its just that the UI looks dated."
+
+NitroPDF: "We use Nitro at work."
+
+PDFgear: "We moved 95% of the population to the free PDFGear."
+
+Smallpdf: "Smallpdf works well for me it handles editing, converting, signing, and merging PDFs in a really simple, clean way."
+
+Graphic Design Alternatives
+Affinity Designer/Publisher/Photo: "Affinity Designer, Publisher and Photo are all great alternatives to Illustrator, InDesign and Photoshop."
+
+Inkscape: "inkscape is a pretty complete illustrator alternative."
+
+Scribus: "And Scribus to replace InDesign. Great list!"
+
+Figma: "Figma is great to know and it’s free."
+
+After Effects Alternatives
+Blender: "blender, natron and friction as after effects alternatives."
+
+Natron: "Natron and Blender for After Effects, Ardour for Audition, Inkscape for Illustrator."
+
+Friction: "Friction seems to be a bit closer to AE at a quick glance"
+
+Audition Alternatives
+Ardour: "Ardour for Audition"
+
+General Adobe Alternatives
+Piracy: "Piracy"
+
+Adobe Alternatives GitHub: "Check here https://github.com/KenneyNL/Adobe-Alternatives?tab=readme-ov-file#animate"
+
+Communities for Further Questions
+r/FuckAdobe
+
+r/graphic_design
+
+r/sysadmin
+
+r/ITManagers
+
+r/adobeanimate

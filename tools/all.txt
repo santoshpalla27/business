@@ -1,0 +1,121 @@
+             Photoshop
+
+Photoshop is a raster-based image editing tool. It works with pixels.
+
+Common real-world uses
+
+Photo editing & retouching (lighting, color, skin, object removal)
+
+Graphic design (posters, banners, flyers)
+
+Social media creatives (Instagram posts, YouTube thumbnails, ads)
+
+Marketing assets (ad creatives, website banners)
+
+Mockups (product previews, app screens on devices)
+
+👉 Rule of thumb:
+
+If it’s pixel-based and visual, Photoshop is usually the right tool.
+
+
+              Raster vs Vector (CRITICAL CONCEPT)
+
+Raster (Photoshop)
+
+Made of pixels
+Quality depends on resolution
+Enlarging causes blur / pixelation
+Examples: Photos, scanned images, textures
+
+Vector (Illustrator)
+
+Made of paths & mathematical shapes
+Infinitely scalable
+No quality loss at any size
+
+Examples: Logos, icons, illustrations   
+
+
+Examples: Logos, icons, illustrations
+
+| Tool        | Type   | Best For                |
+| ----------- | ------ | ----------------------- |
+| Photoshop   | Raster | Photos, ads, thumbnails |
+| Illustrator | Vector | Logos, icons, branding  |
+
+Golden rule:
+
+Photoshop ≠ Logo design
+Illustrator ≠ Photo editing
+
+                             Image Basics (Must-Know Concepts)
+
+🔹 Pixels & Canvas Size
+
+Pixel = smallest unit of an image
+Canvas size = width × height (e.g., 1920 × 1080 px)
+
+Example:
+
+Instagram post → 1080 × 1080 px
+YouTube thumbnail → 1280 × 720 px
+
+👉 Bigger canvas = more pixels = more detail (but larger file size)
+
+
+
+🔹 Resolution (DPI / PPI)
+
+72 DPI → Screens (web, mobile, social media)
+
+300 DPI → Print (posters, brochures, magazines)
+
+👉 DPI does NOT matter for screens
+👉 DPI DOES matter for print
+
+Common beginner mistake:
+Using 72 DPI for print → blurry output
+
+
+
+🔹 RGB vs CMYK
+
+| Mode | Used For | Color Type  |
+| ---- | -------- | ----------- |
+| RGB  | Screens  | Light-based |
+| CMYK | Printing | Ink-based   |
+
+
+Screens glow → RGB
+
+Printers use ink → CMYK
+
+👉 Design for screen → RGB
+👉 Design for print → CMYK
+
+
+🔹 File Formats (When to Use What)
+
+| Format | Best For | Key Feature |
+| ------ | -------- | ----------- |
+| JPEG   | Photos   | Small file size |
+| PNG    | Graphics | Transparency |
+| GIF    | Animation| Simple loops |
+| TIFF   | Print    | High quality |
+| SVG    | Vector   | Scalable |
+
+👉 JPEG = photos (lossy)
+👉 PNG = graphics (lossless
+
+| Format   | Use Case                                         |
+| -------- | ------------------------------------------------ |
+| **JPG**  | Photos, web images (small size, no transparency) |
+| **PNG**  | Transparency, logos, UI assets                   |
+| **PSD**  | Photoshop working file (layers preserved)        |
+| **TIFF** | High-quality print, publishing                   |
+| **WebP** | Modern web images (smaller + good quality)       |
+
+
+👉 Always keep your PSD (psd - editable file)
+Exports are disposable, PSD is gold.
