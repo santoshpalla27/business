@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "66534ec7f5ea798f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c29b9d8d8a8fb124",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "169455928eee05c8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c00e0200e13f0bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc37c8da5d2af506",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6c32d9f98fbd71d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ced8b833ed7e6236",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6e7977e107727f11",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ebb1d0afb5545815",
+    "type": "split",
+    "children": [
+      {
+        "id": "aeb6f3e880eb851f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff4702353f0e45df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "79ee52373ad6a49f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c51e4483ba1331f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c9035077ef5fcc07",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "38eb26989c6234b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e6c32d9f98fbd71d",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "2026-02-11.md",
+    "laser-engraving/engraving-photo.jpg",
+    "laser-engraving/laser-engraving.md",
+    "laser-engraving/engraving-purse.webp",
+    "matel-marking/metal-marking.md",
+    "matel-marking/bottle-2.webp",
+    "matel-marking/bottle.jpg",
+    "products/photo-frames.md",
+    "sublimation/sumlimation.md",
+    "sublimation/jersy.jpg",
+    "uv-printing/uv-printing.md",
+    "uv-printing/uv--printing-color.jpg",
+    "Untitled.md",
+    "Untitled.base",
+    "print-tech.md"
+  ]
+}

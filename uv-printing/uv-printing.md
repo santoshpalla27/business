@@ -85,7 +85,7 @@ Unlike heat-based printing, UV printing works on almost any material and allows 
 
 - Signboards
 - Control panels
-- Labels
+- Labels![[uv--printing-color.jpg]]
 - Packaging prototypes
 
 ⚠️ Fabric & soft materials are NOT suitable

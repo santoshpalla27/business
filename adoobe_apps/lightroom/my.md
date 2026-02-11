@@ -36,3 +36,13 @@ This is more precise than shortcut-based undo.
 | Reset all edits | `Cmd + Shift + R` (Mac)      |
 
 
+
+# before and after view
+
+just under the image there is a tab which has options like 
+
+full screen view , before and after view (YY) ,  reference and after view (RA) 
+
+if you tap on the YY buttons it will show you the before and after view of the image in different ways  and also you can zoom in and out 
+
+
