@@ -23,19 +23,15 @@ use classic if you want more features and more control over your photos and dont
 
 Lightroom Classic is a non-destructive RAW photo workflow software designed for:
 
-Professional photo management
+- Professional photo management
+- Color grading
+- Batch processing
+- Print preparation
 
-Color grading
-
-Batch processing
-
-Print preparation
-
-* It is different from:
+## It is different from:
 
 - Adobe Photoshop → pixel-level manipulation
 
 - Adobe Lightroom → cloud-focused simplified version
 
-Ex:- 
 👉 Lightroom Classic = Catalog-based professional workflow system
