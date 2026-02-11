@@ -7,4 +7,32 @@
 - **cmd/ctrl + +/- to zoom in and out**    -- this help with precise zoom. point the mouse where you want to zoom and use shortcut  
 
 
+# undo and redo
+
+| Action   | Windows            | Mac               |
+| -------- | ------------------ | ----------------- |
+| **Undo** | `Ctrl + Z`         | `Cmd + Z`         |
+| **Redo** | `Ctrl + Shift + Z` | `Cmd + Shift + Z` |
+
+- Press Ctrl/Cmd + Z repeatedly → Goes backward through edit history.
+
+- Press Ctrl/Cmd + Shift + Z repeatedly → Moves forward again.
+
+### History Panel (More Powerful Method)
+
+In Develop Module (Lightroom Classic):
+
+- Go to Develop
+- Left panel → History
+- Click any previous step to jump directly to that state
+
+This is more precise than shortcut-based undo.
+
+### Revert to Original (Full Reset)
+
+| Action          | Shortcut                     |
+| --------------- | ---------------------------- |
+| Reset all edits | `Ctrl + Shift + R` (Windows) |
+| Reset all edits | `Cmd + Shift + R` (Mac)      |
+
 
