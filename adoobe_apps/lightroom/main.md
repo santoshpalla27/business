@@ -34,4 +34,4 @@ Lightroom Classic is a non-destructive RAW photo workflow software designed for:
 
 - Adobe Lightroom → cloud-focused simplified version
 
-👉 Lightroom Classic = Catalog-based professional workflow system
+**Ex:-** Lightroom Classic = Catalog-based professional workflow system
