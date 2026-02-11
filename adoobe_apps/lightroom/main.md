@@ -20,7 +20,7 @@
 # lightroom classic   
 
 
-###        What is Lightroom Classic?
+###      1. What is Lightroom Classic?
 
 Lightroom Classic is a non-destructive RAW photo workflow software designed for:
 
@@ -36,3 +36,30 @@ Lightroom Classic is a non-destructive RAW photo workflow software designed for:
 - Adobe Lightroom → cloud-focused simplified version
 
 **Ex:-** Lightroom Classic = Catalog-based professional workflow system
+
+
+## 2. Core Architecture (Very Important)
+
+### Lightroom is built on 3 main pillars:
+
+1. Catalog (.lrcat file)
+
+- Database of all edits
+- Stores metadata
+- Does NOT store original photos
+
+2. Original Files
+
+- RAW / JPEG stored on disk
+- Lightroom references them
+
+3. Preview Files
+
+- Smart previews for performance
+- Used when original drive disconnected
+
+⚠️ If catalog is deleted → edits are gone (unless XMP enabled)
+
+
+
+## 3.Lightroom Interface Overview
