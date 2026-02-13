@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c29b9d8d8a8fb124",
+        "id": "3f7791b5830bddd6",
         "type": "tabs",
         "children": [
           {
-            "id": "169455928eee05c8",
+            "id": "51b31197430d2cb7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "adoobe_apps/lightroom/ui.canvas",
+                "viewState": {
+                  "x": 4.5,
+                  "y": -178,
+                  "zoom": -0.8661246490541888
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ui"
             }
           }
         ]
@@ -176,9 +183,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "e6c32d9f98fbd71d",
+  "active": "51b31197430d2cb7",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "Untitled.base",
+    "adoobe_apps/lightroom/ui.canvas",
+    "adoobe_apps/lightroom/Screenshot 2026-02-13 at 12.21.09 PM.png",
+    "adoobe_apps/lightroom/ui.md",
+    "adoobe_apps/lightroom/main.md",
+    "Screenshot 2026-02-13 at 12.21.09 PM.png",
+    "Untitled",
+    "adoobe_apps/Untitled.canvas",
+    "2026-02-13.md",
+    "tools/Untitled.canvas",
+    "sublimation/Untitled.canvas",
+    "sublimation/sumlimation.md",
     "2026-02-11.md",
     "laser-engraving/engraving-photo.jpg",
     "laser-engraving/laser-engraving.md",
@@ -187,12 +205,9 @@
     "matel-marking/bottle-2.webp",
     "matel-marking/bottle.jpg",
     "products/photo-frames.md",
-    "sublimation/sumlimation.md",
     "sublimation/jersy.jpg",
     "uv-printing/uv-printing.md",
     "uv-printing/uv--printing-color.jpg",
-    "Untitled.md",
-    "Untitled.base",
     "print-tech.md"
   ]
 }

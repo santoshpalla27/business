@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"8ff7722f21c65817","type":"text","text":"The lightoom has two main modules\n1. library (catalog)\n2. Develop","x":-93,"y":-460,"width":347,"height":116},
+		{"id":"b6dc7d5e634fa036","type":"text","text":"        Develop module \n    ","x":480,"y":-200,"width":329,"height":255},
+		{"id":"4d19c5eeea1a8d46","type":"text","text":"                  Library module \n                  \nthis is where we import the images and organize them in albums and export them to other formats\n\nthis is section for the organization of the images    \n\n","x":-800,"y":-163,"width":490,"height":218},
+		{"id":"1096e8aa48f7dae9","type":"file","file":"Screenshot 2026-02-13 at 12.21.09 PM.png","x":-171,"y":-211,"width":504,"height":315}
+	],
+	"edges":[
+		{"id":"e7e7db8a5e74f277","fromNode":"1096e8aa48f7dae9","fromSide":"top","toNode":"8ff7722f21c65817","toSide":"bottom"},
+		{"id":"27ef317dcb4964d3","fromNode":"1096e8aa48f7dae9","fromSide":"right","toNode":"b6dc7d5e634fa036","toSide":"left"},
+		{"id":"202a9dc18438790a","fromNode":"1096e8aa48f7dae9","fromSide":"left","toNode":"4d19c5eeea1a8d46","toSide":"right"}
+	]
+}
