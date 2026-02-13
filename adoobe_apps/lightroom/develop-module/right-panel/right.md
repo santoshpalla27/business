@@ -67,10 +67,9 @@ Choose color science interpretation.
 Do this first.
 
 
-
 #### White Balance (Temp + Tint)
 
-Fix color cast before exposure adjustments.
+- Fix color cast before exposure adjustments.
 
 ***Wedding rule:***
 Skin tone must look natural before anything else.
