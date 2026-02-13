@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3f7791b5830bddd6",
+        "id": "452d70c8e983be51",
         "type": "tabs",
         "children": [
           {
-            "id": "51b31197430d2cb7",
+            "id": "1377070808b16b0e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "adoobe_apps/lightroom/ui.canvas",
                 "viewState": {
-                  "x": 4.5,
-                  "y": -178,
-                  "zoom": -0.8661246490541888
+                  "x": -1640.5781080817903,
+                  "y": 122.08280728117956,
+                  "zoom": -1.1019558967866152
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -183,12 +183,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "51b31197430d2cb7",
+  "active": "1377070808b16b0e",
   "lastOpenFiles": [
-    "Untitled.base",
+    "adoobe_apps/lightroom/library-module/right/right.md",
+    "adoobe_apps/lightroom/library-module/right",
+    "adoobe_apps/lightroom/library-module/center/center.md",
+    "adoobe_apps/lightroom/library-module/center",
+    "adoobe_apps/lightroom/library-module/library-module.md",
     "adoobe_apps/lightroom/ui.canvas",
-    "adoobe_apps/lightroom/Screenshot 2026-02-13 at 12.21.09 PM.png",
     "adoobe_apps/lightroom/ui.md",
+    "adoobe_apps/lightroom/library-module/left-panel/left-panel.md",
+    "adoobe_apps/lightroom/library-module/left-panel",
+    "adoobe_apps/lightroom/library-module/Screenshot 2026-02-13 at 4.35.40 PM.png",
+    "adoobe_apps/lightroom/library-module",
+    "adoobe_apps/lightroom/Screenshot 2026-02-13 at 4.35.40 PM.png",
+    "adoobe_apps/lightroom/library-module.md",
+    "adoobe_apps/lightroom/notes.md",
+    "Untitled.base",
+    "adoobe_apps/lightroom/Screenshot 2026-02-13 at 12.21.09 PM.png",
     "adoobe_apps/lightroom/main.md",
     "Screenshot 2026-02-13 at 12.21.09 PM.png",
     "Untitled",

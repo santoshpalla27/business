@@ -2,12 +2,22 @@
 	"nodes":[
 		{"id":"8ff7722f21c65817","type":"text","text":"The lightoom has two main modules\n1. library (catalog)\n2. Develop","x":-93,"y":-460,"width":347,"height":116},
 		{"id":"b6dc7d5e634fa036","type":"text","text":"        Develop module \n    ","x":480,"y":-200,"width":329,"height":255},
-		{"id":"4d19c5eeea1a8d46","type":"text","text":"                  Library module \n                  \nthis is where we import the images and organize them in albums and export them to other formats\n\nthis is section for the organization of the images    \n\n","x":-800,"y":-163,"width":490,"height":218},
-		{"id":"1096e8aa48f7dae9","type":"file","file":"Screenshot 2026-02-13 at 12.21.09 PM.png","x":-171,"y":-211,"width":504,"height":315}
+		{"id":"4d19c5eeea1a8d46","type":"text","text":"                  Library module \n                  \nthis is where we import the images and organize them in albums and export them to other formats\n\nthis is section for the organization of the images    \n\n","x":-800,"y":-180,"width":490,"height":235},
+		{"id":"1096e8aa48f7dae9","type":"file","file":"adoobe_apps/lightroom/Screenshot 2026-02-13 at 12.21.09 PM.png","x":-171,"y":-211,"width":504,"height":315},
+		{"id":"123e4f5a4b9a4c5a","x":-755,"y":-369,"width":400,"height":51,"type":"file","file":"adoobe_apps/lightroom/library-module/library-module.md"},
+		{"id":"e662d80253e94555","x":-1804,"y":-440,"width":400,"height":122,"type":"file","file":"adoobe_apps/lightroom/library-module/center/center.md"},
+		{"id":"209b7c49383613cb","type":"file","file":"adoobe_apps/lightroom/library-module/left-panel/left-panel.md","x":-2520,"y":-117,"width":400,"height":110},
+		{"id":"343fce6c73062da1","type":"file","file":"adoobe_apps/lightroom/Screenshot 2026-02-13 at 4.35.40 PM.png","x":-1920,"y":-180,"width":440,"height":275},
+		{"id":"6a45873eb43ec1c6","x":-1320,"y":200,"width":400,"height":142,"type":"file","file":"adoobe_apps/lightroom/library-module/right/right.md"}
 	],
 	"edges":[
 		{"id":"e7e7db8a5e74f277","fromNode":"1096e8aa48f7dae9","fromSide":"top","toNode":"8ff7722f21c65817","toSide":"bottom"},
 		{"id":"27ef317dcb4964d3","fromNode":"1096e8aa48f7dae9","fromSide":"right","toNode":"b6dc7d5e634fa036","toSide":"left"},
-		{"id":"202a9dc18438790a","fromNode":"1096e8aa48f7dae9","fromSide":"left","toNode":"4d19c5eeea1a8d46","toSide":"right"}
+		{"id":"202a9dc18438790a","fromNode":"1096e8aa48f7dae9","fromSide":"left","toNode":"4d19c5eeea1a8d46","toSide":"right"},
+		{"id":"4dac1c3bb1f60aab","fromNode":"4d19c5eeea1a8d46","fromSide":"left","toNode":"343fce6c73062da1","toSide":"right"},
+		{"id":"fb9f4b07be44d022","fromNode":"343fce6c73062da1","fromSide":"left","toNode":"209b7c49383613cb","toSide":"right"},
+		{"id":"5b4b87e552363663","fromNode":"4d19c5eeea1a8d46","fromSide":"top","toNode":"123e4f5a4b9a4c5a","toSide":"bottom"},
+		{"id":"a69d3998b7ee818c","fromNode":"343fce6c73062da1","fromSide":"top","toNode":"e662d80253e94555","toSide":"bottom"},
+		{"id":"ce925ff529b1805a","fromNode":"343fce6c73062da1","fromSide":"right","toNode":"6a45873eb43ec1c6","toSide":"left"}
 	]
 }
