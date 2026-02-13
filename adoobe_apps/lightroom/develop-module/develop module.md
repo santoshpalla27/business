@@ -137,3 +137,21 @@ Never jump randomly.
 | Toggle Panels | Tab                  |
 | Full Screen   | F                    |
 | Zoom 100%     | Spacebar             |
+
+
+
+
+# DEVELOP MODULE STRUCTURE OVERVIEW
+
+The Develop module has 3 major zones:
+
+1. Left Panel → Workflow Control
+2. Center Area → Image Workspace
+3. Right Panel → Editing Engine  
+
+
+Think of it like:
+
+Left = Versions & Presets
+Center = Canvas
+Right = Controls

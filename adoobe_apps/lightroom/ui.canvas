@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"b83e834798dcdb61","x":1482,"y":-853,"width":400,"height":400,"type":"file","file":"adoobe_apps/lightroom/develop-module/center-panel/center.md"},
 		{"id":"8ff7722f21c65817","type":"text","text":"The lightoom has two main modules\n1. library (catalog)\n2. Develop","x":-93,"y":-460,"width":347,"height":116},
 		{"id":"4d19c5eeea1a8d46","type":"text","text":"                  Library module \n                  \nthis is where we import the images and organize them in albums and export them to other formats\n\nthis is section for the organization of the images    \n\n","x":-800,"y":-180,"width":490,"height":235},
 		{"id":"1096e8aa48f7dae9","type":"file","file":"adoobe_apps/lightroom/Screenshot 2026-02-13 at 12.21.09 PM.png","x":-171,"y":-211,"width":504,"height":315},
@@ -9,7 +10,10 @@
 		{"id":"343fce6c73062da1","type":"file","file":"adoobe_apps/lightroom/Screenshot 2026-02-13 at 4.35.40 PM.png","x":-1920,"y":-180,"width":440,"height":275},
 		{"id":"6a45873eb43ec1c6","type":"file","file":"adoobe_apps/lightroom/library-module/right/right.md","x":-1320,"y":200,"width":400,"height":142},
 		{"id":"b6dc7d5e634fa036","type":"text","text":"        Develop module \n    \nThis is the main section when we process and edit the images ","x":560,"y":-152,"width":329,"height":180},
-		{"id":"ee4a9553f2151d51","type":"file","file":"adoobe_apps/lightroom/develop-module/develop module.md","x":525,"y":-402,"width":400,"height":53}
+		{"id":"ee4a9553f2151d51","type":"file","file":"adoobe_apps/lightroom/develop-module/develop module.md","x":525,"y":-402,"width":400,"height":53},
+		{"id":"ef7af291c47d1681","x":1480,"y":-187,"width":400,"height":250,"type":"file","file":"adoobe_apps/lightroom/develop-module/Screenshot 2026-02-13 at 6.31.11 PM.png"},
+		{"id":"82dd2cb58c1912d6","x":1000,"y":240,"width":400,"height":120,"type":"file","file":"adoobe_apps/lightroom/develop-module/left-panel/left-panel.md"},
+		{"id":"8a148a1baea2117f","x":2196,"y":-265,"width":400,"height":400,"type":"file","file":"adoobe_apps/lightroom/develop-module/right-panel/right.md"}
 	],
 	"edges":[
 		{"id":"e7e7db8a5e74f277","fromNode":"1096e8aa48f7dae9","fromSide":"top","toNode":"8ff7722f21c65817","toSide":"bottom"},
@@ -20,6 +24,10 @@
 		{"id":"5b4b87e552363663","fromNode":"4d19c5eeea1a8d46","fromSide":"top","toNode":"123e4f5a4b9a4c5a","toSide":"bottom"},
 		{"id":"a69d3998b7ee818c","fromNode":"343fce6c73062da1","fromSide":"top","toNode":"e662d80253e94555","toSide":"bottom"},
 		{"id":"ce925ff529b1805a","fromNode":"343fce6c73062da1","fromSide":"right","toNode":"6a45873eb43ec1c6","toSide":"left"},
-		{"id":"b4eca6b5143c6fc0","fromNode":"b6dc7d5e634fa036","fromSide":"top","toNode":"ee4a9553f2151d51","toSide":"bottom"}
+		{"id":"b4eca6b5143c6fc0","fromNode":"b6dc7d5e634fa036","fromSide":"top","toNode":"ee4a9553f2151d51","toSide":"bottom"},
+		{"id":"416129218c45529b","fromNode":"b6dc7d5e634fa036","fromSide":"right","toNode":"ef7af291c47d1681","toSide":"left"},
+		{"id":"e73cdbfb89d974aa","fromNode":"ef7af291c47d1681","fromSide":"left","toNode":"82dd2cb58c1912d6","toSide":"right"},
+		{"id":"5dfa7a041b94bb07","fromNode":"ef7af291c47d1681","fromSide":"right","toNode":"8a148a1baea2117f","toSide":"left"},
+		{"id":"50bc13206a7373dc","fromNode":"ef7af291c47d1681","fromSide":"top","toNode":"b83e834798dcdb61","toSide":"bottom"}
 	]
 }
