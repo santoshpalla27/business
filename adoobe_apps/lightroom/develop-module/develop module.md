@@ -62,19 +62,19 @@ Editing order matters.
 
 # PROFESSIONAL DEVELOP WORKFLOW TEMPLATE
 
-Apply Profile
-Fix White Balance
-Set Exposure
-Recover Highlights
-Adjust Shadows
-Set Whites/Blacks
-Add Contrast
-Refine with Curve
-Fix Skin with HSL
-Color Grade
-Sharpen
-Local Adjustments
-Final Review
+- Apply Profile
+- Fix White Balance
+- Set Exposure
+- Recover Highlights
+- Adjust Shadows
+- Set Whites/Blacks
+- Add Contrast
+- Refine with Curve
+- Fix Skin with HSL
+- Color Grade
+- Sharpen
+- Local Adjustments
+- Final Review
 
 Never jump randomly.
 
@@ -82,43 +82,43 @@ Never jump randomly.
 
 # COMMON BEGINNER MISTAKES
 
-❌ Editing color before fixing exposure
-❌ Oversharpening
-❌ Overusing clarity
-❌ High saturation
-❌ Ignoring white balance
-❌ Not zooming to 100%
+- ❌ Editing color before fixing exposure
+- ❌ Oversharpening
+- ❌ Overusing clarity
+- ❌ High saturation
+- ❌ Ignoring white balance
+- ❌ Not zooming to 100%
 
 
 # REAL WORLD WORKFLOWS
 
 ## Wedding Edit Workflow
 
-Correct WB
-Slightly lift exposure
-Reduce highlights
-Soft contrast
-Warm highlights
-Sharpen lightly
-Subtle vignette
+- Correct WB
+- Slightly lift exposure
+- Reduce highlights
+- Soft contrast
+- Warm highlights
+- Sharpen lightly
+- Subtle vignette
 
 ## Instagram Bright & Airy
 
-Exposure +0.5
-Highlights -30
-Shadows +40
-Blacks slightly lifted
-Warm temp
-Reduce clarity
+- Exposure +0.5
+- Highlights -30
+- Shadows +40
+- Blacks slightly lifted
+- Warm temp
+- Reduce clarity
 
 ## Moody Cinematic
 
-Lower exposure slightly
-Reduce highlights
-Cool shadows
-Warm highlights
-Add S-curve
-Slight dehaze
+- Lower exposure slightly
+- Reduce highlights
+- Cool shadows
+- Warm highlights
+- Add S-curve
+- Slight dehaze
 
 
 
