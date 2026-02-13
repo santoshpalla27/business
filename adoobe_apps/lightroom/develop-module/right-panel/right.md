@@ -130,3 +130,19 @@ Global color boost.
 Use very lightly.
 
 
+## Tone Curve
+
+Advanced contrast control.
+
+Two types:
+
+Parametric
+Point Curve
+
+Professional Use:
+Add subtle S-curve for depth.
+
+Used in:
+Commercial, cinematic, product work.
+
+Do not create extreme bends.
