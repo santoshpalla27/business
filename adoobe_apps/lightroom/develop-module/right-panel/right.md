@@ -60,11 +60,10 @@ If Basic is wrong, everything else collapses.
 
 ### Inside Basic Panel:
 
+***#### Profile***
 
-#### Profile
-
-Choose color science interpretation.
-Do this first.
+- Choose color science interpretation.
+- Do this first.
 
 
 #### White Balance (Temp + Tint)
