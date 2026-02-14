@@ -60,21 +60,23 @@ Editing order matters.
 
 
 
-# PROFESSIONAL DEVELOP WORKFLOW TEMPLATE
 
-- Apply Profile
-- Fix White Balance
-- Set Exposure
-- Recover Highlights
-- Adjust Shadows
-- Set Whites/Blacks
-- Add Contrast
-- Refine with Curve
-- Fix Skin with HSL
-- Color Grade
-- Sharpen
-- Local Adjustments
-- Final Review
+## PROFESSIONAL EDITING ORDER (Using These Panels)
+
+- Profile
+- Lens Corrections
+- White Balance
+- Exposure
+- Highlights / Shadows
+- Whites / Blacks
+- Contrast
+- Tone Curve
+- Color Mixer
+- Color Grading
+- Detail
+- Effects
+- Calibration
+- Masking
 
 Never jump randomly.
 

@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "452d70c8e983be51",
+        "id": "f34445bf926724d6",
         "type": "tabs",
         "children": [
           {
-            "id": "1377070808b16b0e",
+            "id": "9e75083db8887c93",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "adoobe_apps/lightroom/ui.canvas",
+                "file": "research/Untitled.canvas",
                 "viewState": {
-                  "x": 1523.4036920465198,
-                  "y": -653.352233645901,
-                  "zoom": -1.1019558967866152
+                  "x": 1021.533762415102,
+                  "y": 1109.3876091145253,
+                  "zoom": -2.6372677748494238
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "ui"
+              "title": "Untitled"
             }
           }
         ]
@@ -183,52 +183,58 @@
       "bases:Create new base": false
     }
   },
-  "active": "1377070808b16b0e",
+  "active": "9e75083db8887c93",
   "lastOpenFiles": [
+    "research/moments-of-love/product-display.png",
+    "research/moments-of-love/Screenshot 2026-02-14 at 7.27.45 PM.png",
+    "research/moments-of-love/banner.png",
+    "research/moments-of-love/footer.png",
+    "research/moments-of-love/testimonials.png",
+    "research/moments-of-love/catalog.png",
+    "research/moments-of-love/best seller.png",
+    "research/Untitled.canvas",
+    "research/moments-of-love",
+    "research/untitled folder",
+    "research/idp/product-description.png",
+    "research/gift-highway /product-display.png",
+    "research/idp/collections.png",
+    "research/idp/collection-2.png",
+    "research/idp",
+    "research/IGP",
+    "research/igp",
+    "research/websites/gift-highway.md",
+    "2026-02-14.md",
+    "research/websites/igp.md",
+    "research/websites",
+    "research/gift-highway ",
+    "research/products-new ",
+    "research",
+    "websites/igp.md",
+    "websites/gift-highway.md",
+    "websites/main.md",
+    "websites",
+    "adoobe_apps/lightroom/ui.canvas",
     "adoobe_apps/lightroom/develop-module/center-panel/center.md",
     "adoobe_apps/lightroom/library-module/left-panel/left-panel.md",
-    "adoobe_apps/lightroom/develop-module/Screenshot 2026-02-13 at 6.31.11 PM.png",
-    "adoobe_apps/lightroom/develop-module/left-panel/Screenshot 2026-02-13 at 6.31.11 PM.png",
     "adoobe_apps/lightroom/develop-module/right-panel/right.md",
-    "adoobe_apps/lightroom/develop-module/center-panel",
-    "adoobe_apps/lightroom/develop-module/right-panel",
     "adoobe_apps/lightroom/develop-module/left-panel/left-panel.md",
-    "adoobe_apps/lightroom/develop-module/left-panel",
     "adoobe_apps/lightroom/develop-module/left-module/left-panel.md",
-    "adoobe_apps/lightroom/develop-module/left-module",
     "adoobe_apps/lightroom/library-module/library-module.md",
-    "adoobe_apps/lightroom/ui.canvas",
     "adoobe_apps/lightroom/develop-module/develop module.md",
-    "adoobe_apps/lightroom/develop-module",
     "adoobe_apps/lightroom/library-module/right/right.md",
-    "adoobe_apps/lightroom/library-module/right",
     "adoobe_apps/lightroom/library-module/center/center.md",
-    "adoobe_apps/lightroom/library-module/center",
     "adoobe_apps/lightroom/ui.md",
-    "adoobe_apps/lightroom/library-module/left-panel",
-    "adoobe_apps/lightroom/library-module/Screenshot 2026-02-13 at 4.35.40 PM.png",
-    "adoobe_apps/lightroom/library-module",
-    "adoobe_apps/lightroom/Screenshot 2026-02-13 at 4.35.40 PM.png",
     "adoobe_apps/lightroom/library-module.md",
     "adoobe_apps/lightroom/notes.md",
-    "Untitled.base",
-    "adoobe_apps/lightroom/Screenshot 2026-02-13 at 12.21.09 PM.png",
     "adoobe_apps/lightroom/main.md",
-    "Screenshot 2026-02-13 at 12.21.09 PM.png",
     "adoobe_apps/Untitled.canvas",
     "2026-02-13.md",
     "tools/Untitled.canvas",
     "sublimation/Untitled.canvas",
     "sublimation/sumlimation.md",
     "2026-02-11.md",
-    "laser-engraving/engraving-photo.jpg",
     "laser-engraving/laser-engraving.md",
-    "laser-engraving/engraving-purse.webp",
     "matel-marking/metal-marking.md",
-    "matel-marking/bottle-2.webp",
-    "matel-marking/bottle.jpg",
-    "products/photo-frames.md",
-    "uv-printing/uv-printing.md",
-    "print-tech.md"
+    "products/photo-frames.md"
   ]
 }

@@ -30,11 +30,13 @@ A heat-based printing process where ink becomes gas and permanently bonds with p
 ### materials:- 
 
 - Polyester fabrics (100% polyester is ideal)
+- sublimation wood
 - Polymer-coated items, such as:
 - Mugs
 - Phone cases
 - Metal photo panels
 - Mouse pads
+
 
 
 
@@ -97,6 +99,7 @@ The ink becomes part of the material itself—no layer, no peeling.
 - Phone cases
 - Metal photo panels
 - Mouse pads
+- sublimation wood.
 
 ❌ **Does NOT work well on**
 - 100% cotton
