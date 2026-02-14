@@ -20,7 +20,6 @@ A CO₂ laser uses a gas mixture (carbon dioxide) and produces a 10.6 μm wavele
 ### What it can do
 
 - Cutting → wood, acrylic, MDF, fabric
-
 - Engraving → wood, acrylic, leather, glass
 
 ### Pros
@@ -50,6 +49,7 @@ A CO₂ laser uses a gas mixture (carbon dioxide) and produces a 10.6 μm wavele
 
 - 💰 Low–Medium machine cost
 - 🏭 Best for gifting, signage, décor, craft businesses
+
 
 
 ## 2. Fiber Laser (Metals Only – Marking & Engraving)  
@@ -103,6 +103,8 @@ A fiber laser uses a solid-state fiber optic source with a 1.064 μm wavelength,
 
 
 
+
+
 ## 3. UV Laser (Cold Laser – Soft Materials & Marking)
 
 A UV laser works at a 355 nm wavelength and is known as a cold laser because it produces minimal heat.
@@ -150,6 +152,11 @@ A UV laser works at a 355 nm wavelength and is known as a cold laser because it 
 
 
 
+
+
+
+
+
 ## 4. Galvo Laser (High-Speed Marking System)
 
 Galvo is NOT a laser type
@@ -189,6 +196,13 @@ It is a motion system that uses fast mirrors to direct the laser beam.
 
 
 
+
+
+
+
+------------------------------------------------------
+
+
 ## Business Selection Guide
 
 - Acrylic frames & wooden gifts → CO₂ laser   
@@ -200,9 +214,10 @@ It is a motion system that uses fast mirrors to direct the laser beam.
 
 ### 🧠 Corrected Summary Table
 
-| Laser Type       | Materials                    | Cutting | Engraving / Marking | Best Use               |
-| ---------------- | ---------------------------- | ------- | ------------------- | ---------------------- |
-| **CO₂ Laser**    | Non-metals                   | ✅ Yes   | ✅ Yes               | Acrylic, wood, leather |
-| **Fiber Laser**  | Metals only                  | ❌       | ✅ Yes               | Metal marking          |
-| **UV Laser**     | Plastics, glass, soft metals | ❌       | ✅ Yes               | Cold marking           |
-| **Galvo System** | Depends on laser             | ❌       | ✅ Yes               | Fast marking           |
+| Laser Type       | Materials                                     | Cutting                    | Engraving (Material Removal) | Marking (Surface Change)   | Best Use                             |
+| ---------------- | --------------------------------------------- | -------------------------- | ---------------------------- | -------------------------- | ------------------------------------ |
+| **CO₂ Laser**    | Non-metals (wood, acrylic, leather, glass)    | ✅ Yes                      | ✅ Yes                        | ✅ Yes                      | Acrylic signs, wood crafts           |
+| **Fiber Laser**  | Metals (steel, aluminum, brass, gold, silver) | ❌ (not sheet cutting type) | ✅ Yes                        | ✅ Yes                      | Metal engraving & industrial marking |
+| **UV Laser**     | Plastics, glass, ceramics, some soft metals   | ❌                          | ⚠️ Very light only           | ✅ Excellent (cold marking) | Sensitive materials                  |
+| **Galvo System** | Depends on laser source                       | ❌                          | ⚠️ Light engraving only      | ✅ Very fast marking        | High-speed production                |
+
