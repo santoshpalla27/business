@@ -1,3 +1,6 @@
+layers panel edits are permanent , smart ojects are non permanent these edits are saved as smart filters 
+
+
 # layers panel
 
 ## what is layers in photoshop
@@ -205,6 +208,12 @@ Black hides, white reveals.
 
 ***Creates non-destructive adjustment:***
 
+these are added as layer so that the original image is protected and can be edited or removed later and also this depends on the layer below it. 
+
+
+lets say we have portiait of virat at top and we want to add brightness contrast to it we can add brightness contrast as layer and it will be added below the portiait layer and we can edit it or remove it later. this will not be applied to other layers below it 
+
+
 - Brightness/Contrast
 - Levels
 - Curves
@@ -213,6 +222,10 @@ Black hides, white reveals.
 
 Professionals NEVER use Image → Adjustments.
 They use adjustment layers.
+
+
+
+
 
 #### 📁 New Group
 
@@ -238,6 +251,7 @@ Deletes selected layer.
 
 Delete key
 
+or select layer use delete symbol or drab the layer to that symbol
 --- 
 
 ### Key Layer Properties
@@ -294,7 +308,7 @@ go to layer menu and new and select layer from background
 
 A protected container layer that preserves original data. 
 
-smart object is used to preserve the original data of the image it doesnt allow to make the edits on that layer like 
+smart object is used to preserve the original data of the image it doesnt allow to make the edits on that layer
 
 smart object have a small icon on the bottom right corner of the layer thumbnail 
 
@@ -303,7 +317,7 @@ File → Place Embedded (automatically creates Smart Object)
 
 if you want to edit right click on the layer and cover to raster 
 
-
+--
 we covert layer into smart objects to protect the quality while editing 
 
 In normal raster layers:
@@ -312,18 +326,32 @@ If you scale down → quality is lost.
 If you apply a filter → it permanently changes pixels.
 If you transform multiple times → degradation occurs.
 
-With Smart Objects:
+With Smart Objects:  
 
 Transformations are reversible.
 Filters become editable (“Smart Filters”).
 Original data remains intact.
 
-
-ex:- lets say we imported a bat png and used as layer and resized it to 20% and saved now thats permantent . if we resize it to 100% it will be blur 
-
-but if we convert that layer into smart object and resize it to 20% and save now thats permantent . if we resize it to 100% it will be clear 
+these are saved as smart filters (similar like layers)
 
 
+❌ What You Cannot Edit Directly
+1) Paint or Erase Directly
+
+Brush, Eraser, Clone Stamp won’t work on the Smart Object surface.
+You must:
+Rasterize it, or
+Edit contents inside.
+
+2) Pixel-Level Tools (Directly)
+
+3) Partial Pixel Deletion
+
+4) Certain Adjustments (Direct Apply)
+
+Image → Adjustments applies destructively only after rasterizing.
+
+5) Merging Into It
 ---
 
 Fill vs Opacity
@@ -369,6 +397,17 @@ Outline-only text
 Glass UI effects
 Advanced compositing tricks
 
+
+
+| Feature                      | Opacity   | Fill       |
+| ---------------------------- | --------- | ---------- |
+| Affects pixels               | Yes       | Yes        |
+| Affects layer styles         | Yes       | No         |
+| Used for normal transparency | Yes       | Rarely     |
+| Used for special effects     | Sometimes | Very Often |
+
+If you want everything to fade → use Opacity
+If you want effects visible but hide content → use Fill
 ---
 ## Most Used Professional Shortcuts
 

@@ -1,0 +1,10 @@
+
+
+duplicate layer to strecth background
+
+first we select the crop tool and extend the cavas so it creates an empty space
+
+then we select selection tool and rectangle marquee tool to select the original background which can be used for extension 
+
+then we cut and make a new layer of it and take that above the original image layer and hide the base background and trasform the layer to that transparent background and then you can see that background is extended to the empty space
+

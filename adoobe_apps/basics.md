@@ -1,4 +1,12 @@
+Non-destructive editing means modifying an image without permanently altering the original pixel data.
 
+You can:
+
+Undo changes anytime
+
+Adjust settings later
+
+Remove effects without quality loss
 
 #    Photoshop
 

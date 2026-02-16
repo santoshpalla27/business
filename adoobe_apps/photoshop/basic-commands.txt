@@ -21,6 +21,9 @@ cmd + t = transform tool
 
 cmd + e =  merge selected layers 
 cmd + shift + e =  merge all layers
+cmd + j = duplicate layer
+
+hold alt (option) and drag to duplicate a layer 
 
 alt + click on the layer eye icon =  hide all layers except the selected layer and click on that again to show all layers
 
@@ -39,3 +42,14 @@ you can set opacity of the layer by selecting move tool and numbers
 
 you can increase the numbers of any tool like opacity fill or brush size 
 by going to the top of the text of that tool and hold + grag right of left to + or -
+
+
+layers panel edits are permanent , smart ojects are non permanent these edits are saved as smart filters 
+
+
+
+
+
+enable snap in view menu to get lines while aligning the layers
+
+hold shift to align the layers horizontally or vertically

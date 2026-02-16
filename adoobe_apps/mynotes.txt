@@ -1,0 +1,39 @@
+
+
+layer are like a stack of images, where each image is called a layer.  
+
+so this will be easy to edit the image, as we can edit each layer separately.
+
+
+with normal layer if we edit the image, it will lose the qulity will increase and decrease of the image.
+and the changes will be permanent.like erasing or bushes or color correction will be permanent.
+
+
+
+with smart object the main image will be protected 
+so no quality loss will be there. and all the changes we make will be non-destructive. and saved as smart filter (think of it like layers inside a layer)
+
+so the changes are not permanent we can edit the smart object again and again.
+
+i we want to make in the smart object then we can double click the smart object layer i will open as normal we make changes save and comeback and changes will be reflected.in tha main section
+
+====================
+
+mask is just a layer that is used to hide or show the layer below it.
+
+mask is used to hide or show the part of the image which we want.
+
+just like cut the piece of from the image we want and make it a layer. 
+
+the use of mask is we can edit the shape of the image. by unhide the mask so it will be easy and non-destructive way to edit the image.
+
+mask is like a black and white image, where black is hidden and white is shown.
+
+
+
+mask clipping is used to style the only layer which we want to style. we create a new layer above the masked layer and make the mask clipping to the new layer. and clip this layer with masked layer. now the changes in this layer like color correction or style or some text of background will be applied to the below layer 
+
+but the thing will mask clipping is it will be applied to the below layer only. it will not be applied to the above layer.
+and also the below layer mask subject (black section) will only get the changes and syling from the  above layer.
+
+we should transform and adjust the mask layer to get the desired result. 
