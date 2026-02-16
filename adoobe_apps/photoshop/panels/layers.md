@@ -13,7 +13,7 @@ layers are like sheets of paper stacked on top of each other. with this you can 
 
 you have layers option in right side of ui in panels and you see layers panel 
 
-<img src="layers-panel.png" width="100" height="100">
+<img src="layers-panel.png" width="350" height="350">
 
 ## Types of Layers in Photoshop
 
