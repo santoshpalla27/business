@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "image-center",
+      "type": "file",
+      "file": "adoobe_apps/photoshop/panels/layers-panel.png",
+      "x": 0,
+      "y": 0,
+      "width": 500,
+      "height": 600
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# 🎨 Photoshop Layers Panel – Complete Breakdown\n\nThe Layers Panel is the most important panel in Photoshop.\nIt controls your entire project architecture.",
+      "x": -200,
+      "y": -300,
+      "width": 900,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "section-tabs",
+      "type": "text",
+      "text": "## 1. Panel Tabs\n\n**Layers | Channels | Paths**\n\n- **Layers** – Main tab for managing all layers\n- **Channels** – Color channel info (RGB, Red, Green, Blue)\n- **Paths** – Vector path data from Pen Tool\n\nYou'll spend 95% of time in the **Layers** tab.",
+      "x": -700,
+      "y": -100,
+      "width": 400,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "section-filter",
+      "type": "text",
+      "text": "## 2. Layer Filtering Bar\n\n**🔍 \"Kind\" Dropdown** – Filter layers by type\n\nQuick filter icons (left to right):\n- 🖼 Pixel layers\n- ◐ Adjustment layers\n- **T** Text layers\n- ⬛ Shape layers\n- 📄 Smart Objects\n- 🔴 Color tag filter\n\nWhen active, only matching layers are shown.",
+      "x": -700,
+      "y": 220,
+      "width": 400,
+      "height": 320,
+      "color": "4"
+    },
+    {
+      "id": "section-blending",
+      "type": "text",
+      "text": "## 3. Blending Mode & Opacity\n\n**Blending Mode** (Default: Normal)\nControls how this layer interacts with layers below.\n\n| Mode | Effect |\n|------|--------|\n| Multiply | Darkens |\n| Screen | Lightens |\n| Overlay | Contrast boost |\n\n**Shortcuts:**\n- `Shift + +` → Next mode\n- `Shift + -` → Previous mode\n\n**Opacity** – Layer transparency\n- Press `5` → 50%, `0` → 100%\n- (Move Tool must be selected)",
+      "x": 600,
+      "y": -100,
+      "width": 420,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "section-lock-fill",
+      "type": "text",
+      "text": "## 4. Lock Options & Fill\n\n**Lock icons (left to right):**\n- 🔲 Lock Transparent Pixels\n- 🖌 Lock Image Pixels\n- 🔀 Lock Position\n- 🔒 Lock All\n\n**Shortcut:** `/` toggles Lock Transparent Pixels\n\n---\n\n**Fill** – Like Opacity but only affects layer pixels, **not** layer styles (shadows, strokes).\nUsed heavily in advanced effects.",
+      "x": 600,
+      "y": 360,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "section-stack",
+      "type": "text",
+      "text": "## 5. Layer Stack (Main Area)\n\nVertical hierarchy:\n- **Top layer** = visible above\n- **Bottom layer** = base/background\n\n**Each layer row contains:**\n- 👁 **Eye Icon** – Toggle visibility (`Alt + Click` = solo)\n- **Thumbnail** – Preview (checkerboard = transparent)\n- **Layer Name** – Double-click to rename\n- 🔒 **Lock icon** – Shows lock status\n\n**Background layer** is locked by default.\n→ Double-click it to unlock.",
+      "x": -700,
+      "y": 580,
+      "width": 400,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "section-bottom-bar",
+      "type": "text",
+      "text": "## 6. Bottom Action Bar ⚡\n\nCritical icons from **left → right**:\n\n| Icon | Action | Shortcut |\n|------|--------|----------|\n| 🔗 | Link Layers | Select multiple + click |\n| **fx** | Layer Styles (Shadow, Stroke, Glow) | Double-click layer |\n| ⭕ | Layer Mask (white=reveal, black=hide) | Click icon / `Alt+Click` for black mask |\n| ◐ | Adjustment Layer (non-destructive) | Click icon |\n| 📁 | New Group | `Cmd + G` |\n| ➕ | New Layer | `Cmd + Shift + N` |\n| 🗑 | Delete Layer | `Delete` key |",
+      "x": 600,
+      "y": 740,
+      "width": 480,
+      "height": 380,
+      "color": "1"
+    },
+    {
+      "id": "pro-tips",
+      "type": "text",
+      "text": "## 💡 Professional Layer Discipline\n\n**❌ Beginners:**\n- Leave names as Layer 1, Layer 2\n- Directly erase pixels\n- Flatten early\n\n**✅ Professionals:**\n- Rename everything\n- Use masks instead of eraser\n- Use adjustment layers\n- Group logically\n- Color-code layers\n- Keep file editable until final export",
+      "x": -200,
+      "y": 1020,
+      "width": 500,
+      "height": 340,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-tabs",
+      "fromNode": "section-tabs",
+      "fromSide": "right",
+      "toNode": "image-center",
+      "toSide": "left",
+      "label": "Tabs area"
+    },
+    {
+      "id": "edge-filter",
+      "fromNode": "section-filter",
+      "fromSide": "right",
+      "toNode": "image-center",
+      "toSide": "left",
+      "label": "Filter bar"
+    },
+    {
+      "id": "edge-blending",
+      "fromNode": "section-blending",
+      "fromSide": "left",
+      "toNode": "image-center",
+      "toSide": "right",
+      "label": "Blending & Opacity"
+    },
+    {
+      "id": "edge-lock",
+      "fromNode": "section-lock-fill",
+      "fromSide": "left",
+      "toNode": "image-center",
+      "toSide": "right",
+      "label": "Lock & Fill"
+    },
+    {
+      "id": "edge-stack",
+      "fromNode": "section-stack",
+      "fromSide": "right",
+      "toNode": "image-center",
+      "toSide": "bottom",
+      "label": "Layer stack"
+    },
+    {
+      "id": "edge-bottom",
+      "fromNode": "section-bottom-bar",
+      "fromSide": "left",
+      "toNode": "image-center",
+      "toSide": "bottom",
+      "label": "Action bar"
+    }
+  ]
+}
