@@ -19,7 +19,7 @@ i we want to make in the smart object then we can double click the smart object 
 
 ====================
 
-mask is just a layer that is used to hide or show the layer below it.
+mask is just a layer that is used to hide or show the desired part of the image below it.
 
 mask is used to hide or show the part of the image which we want.
 
