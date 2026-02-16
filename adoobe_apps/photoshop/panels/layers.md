@@ -275,13 +275,101 @@ Inside the Layers Panel, you control:
 
 ### 5️⃣ Smart Object
 
-- A protected container layer that preserves original data.
+- A protected container layer that preserves original data. 
+
+---
+            background layer 
+
+first initialized layer is background layer and we can't delete it 
+
+to unlock the background layer we need to right click on the background layer and click on unlock or click on lock symbol 
+
+and to make any other layer background layer 
+
+go to layer menu and new and select layer from background 
 
 
+---
+                        Smart Object
+
+A protected container layer that preserves original data. 
+
+smart object is used to preserve the original data of the image it doesnt allow to make the edits on that layer like 
+
+smart object have a small icon on the bottom right corner of the layer thumbnail 
+
+Right-click layer → Convert to Smart Object.   -- to make a smart object
+File → Place Embedded (automatically creates Smart Object)
+
+if you want to edit right click on the layer and cover to raster 
+
+
+we covert layer into smart objects to protect the quality while editing 
+
+In normal raster layers:
+
+If you scale down → quality is lost.
+If you apply a filter → it permanently changes pixels.
+If you transform multiple times → degradation occurs.
+
+With Smart Objects:
+
+Transformations are reversible.
+Filters become editable (“Smart Filters”).
+Original data remains intact.
+
+
+ex:- lets say we imported a bat png and used as layer and resized it to 20% and saved now thats permantent . if we resize it to 100% it will be blur 
+
+but if we convert that layer into smart object and resize it to 20% and save now thats permantent . if we resize it to 100% it will be clear 
 
 
 ---
 
+Fill vs Opacity
+
+Both control transparency — but they affect different parts of a layer.
+
+Opacity
+
+Controls everything on the layer:
+
+Pixels
+Layer styles (Drop Shadow, Stroke, Glow, etc.)
+
+If Opacity = 50% →
+Entire layer becomes 50% transparent.
+
+Shortcut:
+Press number keys (5 = 50%, 0 = 100%)
+
+
+Fill
+
+Controls only the actual pixels/content, NOT the layer styles.
+
+fill doesnt effect the layer styles it only effect the pixels of the layer 
+
+If Fill = 0% →
+Pixels disappear
+Layer styles remain visible
+
+
+Professional Example:-
+
+Add text → Add Drop Shadow
+
+Opacity 0% → Text AND shadow disappear
+Fill 0% → Text disappears, shadow stays
+
+This is used for:
+
+Glow effects
+Outline-only text
+Glass UI effects
+Advanced compositing tricks
+
+---
 ## Most Used Professional Shortcuts
 
 These are the ones that actually matter in real workflows:

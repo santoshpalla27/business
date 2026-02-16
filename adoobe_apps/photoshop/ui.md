@@ -278,3 +278,7 @@ That's it.
 - Editing on background layer directly
 - Not naming layers
 - Ignoring layers panel
+
+
+
+if any panel got deleted and you want to get it back  just go the window menu and click on the panel name

@@ -1,0 +1,41 @@
+        commands in photoshop
+        
+cmd in mac and ctl in windows and option in mac and alt in windows
+
+
+cmd + z = undo
+cmd + shift + z = redo
+
+
+cmd + + = zoom in
+cmd + - = zoom out
+hold space bar to move the canvas
+cmd + 0 = reset zoom and fill the screen mode of canvas 
+
+alt + clickk on the layer thumbnail =  move the layer in a zoomed view 
+
+
+
+cmd + t = transform tool
+
+
+cmd + e =  merge selected layers 
+cmd + shift + e =  merge all layers
+
+alt + click on the layer eye icon =  hide all layers except the selected layer and click on that again to show all layers
+
+
+
+you can set opacity of the layer by selecting move tool and numbers 
+
+2 -> 20%
+5 -> 50%
+1 -> 10%
+0 -> 0%
+23 -> 23% 
+
+
+
+
+you can increase the numbers of any tool like opacity fill or brush size 
+by going to the top of the text of that tool and hold + grag right of left to + or -
