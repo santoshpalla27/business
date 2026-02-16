@@ -19,6 +19,8 @@ Layers follow top-to-bottom hierarchy:
 If something disappears:
 👉 It may be hidden under another layer.
 
+---
+
 ### Real-World Example
 
 Imagine designing a YouTube thumbnail:
@@ -31,6 +33,8 @@ Imagine designing a YouTube thumbnail:
 
 Each can be modified separately.
 
+---
+
 # ui
 
 you have layers option in right side of ui in panels and you see layers panel 
@@ -38,6 +42,7 @@ you have layers option in right side of ui in panels and you see layers panel
 <img src="layers-panel.png" width="350" height="350">
 
 the layers panel is divided into several sections:
+
 
 
 ### 1. Top Section – Layer Filtering Bar
@@ -58,7 +63,7 @@ These are quick filters:
 
 If filter is active, only those layers show.
 
-
+---
 
 ### 2. Blending Mode & Opacity Area
 
@@ -92,11 +97,14 @@ Press number keys (with Move Tool selected)
 0 → 100%
 25 → 25%
 
+---
+
 ### 3. Fill
 
 Like opacity but only affects layer pixels, not layer styles (like shadows).
 Used heavily in advanced effects.
 
+---
 
 ### 4. Lock Options
 
@@ -116,7 +124,7 @@ Below blending mode:
 - / (slash) toggles Lock Transparent Pixels
 
 
-
+---
 
 ### 5. The Layer Stack (Main Area)
 
@@ -154,6 +162,7 @@ If locked, you cannot edit.
 - Double click “Background”
 
 
+---
 
 ### 6. Bottom Action Bar (Very Important)
 
@@ -267,8 +276,6 @@ Inside the Layers Panel, you control:
 ### 5️⃣ Smart Object
 
 - A protected container layer that preserves original data.
-
-
 
 
 
