@@ -12,12 +12,12 @@ Shortcut:
 - Windows: Ctrl + O
 - Mac: Cmd + O
 
-## 3) Drag & Drop Method (Fastest)
+## 2) Drag & Drop Method (Fastest)
 
 - Drag image from your folder
 - Drop it into Photoshop window
 
-## 4) Opening RAW Files (Important)
+## 3) Opening RAW Files (Important)
 
 Raw is unprocessed image file from camera.
 
@@ -29,21 +29,19 @@ Steps:
 2. Click Open (bottom right)
 3. It opens inside Photoshop
 
----
+----------------------------------------------------------------------------------
 
 # Create a file
 
 ## Step 1: Open New Document
 
 Go to:
-
 File → New
 
 Shortcut:
-
 - Windows → Ctrl + N
 - Mac → Cmd + N
-
+ 
 The New Document window will open.
 
 ## Step 2: Understand the Important Settings
@@ -148,7 +146,7 @@ Saves time every day.
 - Digital → Pixels + RGB
 - Print → Inches + 300 PPI + CMYK
 
----
+----------------------------------------------------------------------------------
 
 # Photoshop UI Walkthrough (Very Simple & Practical)
 
@@ -157,6 +155,8 @@ Think of Photoshop like a working table.
 - Left = Tools
 - Center = Your Image
 - Right = Controls
+
+----------------------------------------------------------------------------------
 
 ## 1) Top Menu Bar
 
@@ -175,6 +175,11 @@ Important menus:
 You don't need all at once.
 File, Edit, Layer are used most.
 
+
+
+
+----------------------------------------------------------------------------------
+
 ## 2) Toolbar (Left Side)
 
 This is where your tools live.
@@ -191,6 +196,8 @@ Important tools for beginners:
 - Zoom Tool → Zoom in/out
 
 Tip: Press and hold on tool icons to see more options.
+
+----------------------------------------------------------------------------------
 
 ## 3) Canvas (Middle Area)
 
@@ -253,6 +260,8 @@ Small icons:
 - Add adjustment
 
 You will use these daily.
+
+----------------------------------------------------------------------------------
 
 ## Simple Understanding
 
