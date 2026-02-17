@@ -10,6 +10,8 @@ we can use mask to hide the objects from the image non-destructively,so the main
 
 A mask in Photoshop controls visibility of a layer without deleting pixels.
 
+think of it like a mask which you can use hide things which you want and also show using black and white color 
+
 It hides or reveals parts of a layer non-destructively.
 
 You are not erasing anything.
@@ -19,6 +21,9 @@ you are just hiding and with options like density which will show back if the hi
 
 You are not deleting pixels.
 You are controlling visibility mathematically.
+
+
+mask works best with smart object which makes a deadly combo of non destructive editing 
 
 
 Core Concept
@@ -52,6 +57,14 @@ You maintain professional flexibility.
 we can use brush tool to edit the mask with black and white selected black will hide the layer and white will show the layer 
 ********
 --
+
+
+if you want to create the mask of the selected area just click on mask icon in the layers panel (window with a circle in it)
+
+and we can select the mask use invert to invert the selection 
+
+cmd + i by selecting the mask = invert the mask  or can directly create opposite mask by using alt + click on the mask icon 
+
 Types of Masks in Photoshop
 
 There are mainly three types:
@@ -209,3 +222,24 @@ To edit that mask again → you must double-click the Smart Object → edit insi
 
 So you didn’t lose it.
 It just moved inside the container.
+
+
+---
+
+
+         mask linking and unlinking 
+
+you have a small icon in between layer and mask use that to lock or unlock 
+generally if the mask is locked and if we move that layer the mask will not be moved so it will be in the same position .
+so we first unlink the mask and move the layer and then relink the mask  
+
+
+
+
+--- 
+
+shift  + click on the mask = disable the mask 
+shift  + click on the mask again = enable the mask 
+
+
+used to see how it looks without mask without deleting completely 

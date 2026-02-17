@@ -12,6 +12,7 @@ Smart Objects
 
 Ctrl + T (Cmd + T on Mac)
 hold shift to strecth the image to maintain the aspect ratio
+alt or option + shift to darg from center 
 
 You’ll see a bounding box around the layer.
 

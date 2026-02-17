@@ -307,15 +307,17 @@ go to layer menu and new and select layer from background
                         Smart Object
 
 A protected container layer that preserves original data. 
-
 smart object is used to preserve the original data of the image it doesnt allow to make the edits on that layer
-
 smart object have a small icon on the bottom right corner of the layer thumbnail 
+
+smart object is like a layer which is protected from the edits and all the edits maded are added kind of adons to the smart object called smart filter
 
 Right-click layer → Convert to Smart Object.   -- to make a smart object
 File → Place Embedded (automatically creates Smart Object)
 
 if you want to edit right click on the layer and cover to raster 
+
+mask works best with smart object which makes a deadly combo of non destructive editing 
 
 --
 we covert layer into smart objects to protect the quality while editing 

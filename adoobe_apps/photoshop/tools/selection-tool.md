@@ -87,6 +87,9 @@ Thumbnail creation
 
 This is currently the fastest method for most workflows.
 
+
+quick selection tool ( w ) - modren tools which auto adjusts the selection with the dragging you create 
+
 5. Magic Wand Tool
 
 Color-Based Selection
@@ -136,3 +139,9 @@ Delete directly.
 
 Always:
 Turn selection into a mask for non-destructive editing.
+
+
+
+you can select the sky by going to select menu and top and click sky it selects the sky 
+
+we can create mask by clicking mask icon in layer and invert the selection using 

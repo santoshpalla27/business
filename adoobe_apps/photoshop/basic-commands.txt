@@ -3,6 +3,11 @@
 cmd in mac and ctl in windows and option in mac and alt in windows
 
 
+ x   --  to toggle between black and white. 
+
+] is used to increase the size of the brush
+[ is used to decrease the size of the brush
+
 cmd + z = undo
 cmd + shift + z = redo
 

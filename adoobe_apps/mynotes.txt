@@ -8,7 +8,7 @@ so this will be easy to edit the image, as we can edit each layer separately.
 with normal layer if we edit the image, it will lose the qulity will increase and decrease of the image.
 and the changes will be permanent.like erasing or bushes or color correction will be permanent.
 
-
+smart object is like a layer which is protected from the edits and all the edits maded are added kind of adons to the smart object called smart filter
 
 with smart object the main image will be protected 
 so no quality loss will be there. and all the changes we make will be non-destructive. and saved as smart filter (think of it like layers inside a layer)
@@ -18,20 +18,33 @@ so the changes are not permanent we can edit the smart object again and again.
 i we want to make in the smart object then we can double click the smart object layer i will open as normal we make changes save and comeback and changes will be reflected.in tha main section
 
 ====================
+             mask 
 
-you can add mask to a layer but clicking the mask (window with circle in it) option below in the bar
-
-mask an addition to a layer that is used to hide or show the desired part of the image below it. 
+you can add mask to a layer but clicking the mask option (window with circle in it)  below in the bar
+mask is an addition to a layer that is used to hide or show the desired part of the image below it.
 
 think of it like real mask hide what we dont want to show 
-
 mask is used to hide or show the part of the image which we want.
 
-just like cut the piece of from the image we want and make it a layer. 
+mask has two things black and white .. black hides and white shows  
 
-the use of mask is we can edit the shape of the image. by unhide the mask so it will be easy and non-destructive way to edit the image.
+shortcut :- x.   --  to toggle between black and white. 
 
-mask is like a black and white image, where black is hidden and white is shown.
+] is used to increase the size of the brush
+[ is used to decrease the size of the brush
+
+mask works best with smart object which makes a deadly combo of non destructive editing 
+
+use selection tools to select the area you want to mask or can also use brush 
+
+cmd + i by selecting the mask = invert the mask  or can directly create opposite mask by using alt + click on the mask icon 
+
+
+shift  + click on the mask = disable the mask 
+shift  + click on the mask again = enable the mask 
+
+
+used to see how it looks without mask without deleting completely 
 
 two types :- 
 
@@ -44,6 +57,13 @@ Hair cutout → Layer mask
 Logo cutout → Vector mask
 Product edge → Vector mask
 Shadow fade → Layer mask
+
+
+         mask linking and unlinking 
+
+you have a small icon in between layer and mask use that to lock or unlock 
+generally if the mask is locked and if we move that layer the mask will not be moved so it will be in the same position .
+so we first unlink the mask and move the layer and then relink the mask  
 
 
 mask clipping is used to style the only layer which we want to style. we create a new layer above the masked layer and make the mask clipping to the new layer. and clip this layer with masked layer. now the changes in this layer like color correction or style or some text of background will be applied to the below layer 
