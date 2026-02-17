@@ -19,7 +19,11 @@ i we want to make in the smart object then we can double click the smart object 
 
 ====================
 
-mask is just a layer that is used to hide or show the desired part of the image below it.
+you can add mask to a layer but clicking the mask (window with circle in it) option below in the bar
+
+mask an addition to a layer that is used to hide or show the desired part of the image below it. 
+
+think of it like real mask hide what we dont want to show 
 
 mask is used to hide or show the part of the image which we want.
 
@@ -29,6 +33,17 @@ the use of mask is we can edit the shape of the image. by unhide the mask so it 
 
 mask is like a black and white image, where black is hidden and white is shown.
 
+two types :- 
+
+Layer Mask → Organic / soft / painted
+Vector Mask → Sharp / geometric / precise
+
+🧠 Example
+
+Hair cutout → Layer mask
+Logo cutout → Vector mask
+Product edge → Vector mask
+Shadow fade → Layer mask
 
 
 mask clipping is used to style the only layer which we want to style. we create a new layer above the masked layer and make the mask clipping to the new layer. and clip this layer with masked layer. now the changes in this layer like color correction or style or some text of background will be applied to the below layer 

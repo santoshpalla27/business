@@ -352,6 +352,8 @@ Edit contents inside.
 Image → Adjustments applies destructively only after rasterizing.
 
 5) Merging Into It
+
+
 ---
 
 Fill vs Opacity
@@ -362,12 +364,12 @@ Opacity
 
 Controls everything on the layer:
 
-Pixels
-Layer styles (Drop Shadow, Stroke, Glow, etc.)
+- Pixels
+- Layer styles (Drop Shadow, Stroke, Glow, etc.)
 
 If Opacity = 50% →
 Entire layer becomes 50% transparent.
-
+ 
 Shortcut:
 Press number keys (5 = 50%, 0 = 100%)
 
@@ -479,3 +481,87 @@ Your design becomes chaos.
 
 If you structure it:
 You work like an industry retoucher or designer.
+
+
+
+---
+                  layers order 
+                  
+Think of Layers Like a Stack 
+
+Top layers affect what’s underneath them.
+
+So if your structure looks like this:
+
+Text Layer
+Color Balance (Adjustment Layer)
+Image Layer
+Background
+
+
+The Color Balance will affect:
+
+✔ Image Layer
+✔ Background
+
+❌ It will NOT affect the Text Layer (because text is above it)
+
+🎯 How to Control It Precisely
+1️⃣ Affect Only One Layer (Clipping Mask)
+
+If you want the adjustment to affect only the layer directly below:
+
+Right-click Adjustment Layer → Create Clipping Mask
+
+Shortcut:
+Alt/Option + Click between layers
+
+Now it affects only that one layer.
+
+2️⃣ Limit It with a Mask
+
+Every Adjustment Layer comes with a Layer Mask.
+
+White → visible
+Black → hidden
+
+So you can paint where the effect appears.
+
+3️⃣ Limit It Using Blend If (Advanced)
+
+Double click adjustment layer → Use Blend If
+Now it affects only highlights, shadows, or midtones.
+
+Professional retouchers use this heavily.
+
+⚠ Important Detail
+
+Adjustment Layers are:
+
+✔ Non-destructive
+✔ Editable anytime
+✔ Stackable
+✔ Reorderable
+
+And their effect changes depending on:
+
+Layer order
+
+Blend mode
+
+Opacity
+
+Clipping mask
+
+Mask painting
+
+🔥 Real Industry Workflow
+
+Professionals usually:
+
+• Keep base image at bottom
+• Stack corrections (Exposure → WB → Contrast)
+• Then stack grading layers
+• Then special effects
+
+All controlled via masks and clipping.
