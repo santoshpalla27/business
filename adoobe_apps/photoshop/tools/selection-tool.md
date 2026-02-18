@@ -1,4 +1,8 @@
-                     Selection Tools in Photoshop 
+        create mask of other layer by using selection tool  to the layer you want to mask
+
+we can make selection by going that layer and then we can go to other layer and use mask to hide the selected area .. this way we can hide the selected area from the other layer
+
+                     Selection Tools in Photoshop
 
 A selection defines which pixels are active and editable.
 
@@ -45,8 +49,6 @@ Manual object selection.
 Shortcut:
 L
 
-
-
 3. Quick Selection Tool (W) - AI Brush Selection
 
 Brush-based AI detection.
@@ -71,7 +73,7 @@ Select → Select and Mask
 
 Shortcut: W
 
-4. Object Selection Tool - Modern AI Selection 
+4. Object Selection Tool - Modern AI Selection
 
 Draw rectangle → Photoshop isolates object inside.
 
@@ -87,8 +89,7 @@ Thumbnail creation
 
 This is currently the fastest method for most workflows.
 
-
-quick selection tool ( w ) - modren tools which auto adjusts the selection with the dragging you create 
+quick selection tool ( w ) - modren tools which auto adjusts the selection with the dragging you create
 
 5. Magic Wand Tool
 
@@ -99,7 +100,7 @@ Tolerance:
 Low = strict color match
 High = wider color range
 
-think of it like selection circle 
+think of it like selection circle
 
 Contiguous:
 
@@ -114,9 +115,6 @@ Flat graphics
 Sky replacement (simple cases)
 Not good for textured areas.
 
-
-
-
 ---
 
 Important Selection Shortcuts
@@ -129,7 +127,6 @@ Alt → Subtract from selection
 Q → Quick Mask mode
 Ctrl + J → Copy selection to new layer
 
-
 Professional Workflow Structure
 
 Selection → Refine → Convert to Mask → Adjust
@@ -140,8 +137,6 @@ Delete directly.
 Always:
 Turn selection into a mask for non-destructive editing.
 
+you can select the sky by going to select menu and top and click sky it selects the sky
 
-
-you can select the sky by going to select menu and top and click sky it selects the sky 
-
-we can create mask by clicking mask icon in layer and invert the selection using 
+we can create mask by clicking mask icon in layer and invert the selection using
