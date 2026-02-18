@@ -204,28 +204,103 @@ Black hides, white reveals.
 - Click mask icon
 - Alt + Click → Black mask
 
+
+
 #### ◐ Adjustment Layer
+
+Professionals NEVER use Image → Adjustments.
+They use adjustment layers.
+
+if we make adjustment directly to the image then we cannot roll back that is destructive adjustment 
+
+so we use adujustment layer so that the adjustments are added as layers which can be edited or removed later 
 
 ***Creates non-destructive adjustment:***
 
-these are added as layer so that the original image is protected and can be edited or removed later and also this depends on the layer below it. 
+An Adjustment Layer in Adobe Photoshop is a non-destructive color and tonal correction layer.
+It modifies layers below it without permanently changing pixels.
+
+Method 1 (Professional Way)
+
+Bottom of Layers Panel → Click the half black/white circle icon
+
+Method 2
+
+Layer → New Adjustment Layer
 
 
 lets say we have portiait of virat at top and we want to add brightness contrast to it we can add brightness contrast as layer and it will be added below the portiait layer and we can edit it or remove it later. this will not be applied to other layers below it 
 
 
-- Brightness/Contrast
-- Levels
-- Curves
-- Hue/Saturation
-- Color Balance
+Most Important Adjustment Layers
 
-Professionals NEVER use Image → Adjustments.
-They use adjustment layers.
+| Adjustment              | Use Case                                   |
+| ----------------------- | ------------------------------------------ |
+| **Brightness/Contrast** | Basic exposure correction                  |
+| **Levels**              | Control shadows, midtones, highlights      |
+| **Curves**              | Advanced tonal control (industry standard) |
+| **Hue/Saturation**      | Change color intensity                     |
+| **Color Balance**       | Shift color tones                          |
+| **Black & White**       | Professional monochrome conversion         |
+| **Gradient Map**        | Cinematic color grading                    |
+
+
+Why Adjustment Layers Are Important
+
+✅ Non-destructive
+✅ Editable anytime
+✅ Comes with built-in mask
+✅ Can clip to one layer
+✅ Blend mode compatible
+
+
+Key Concepts
+
+1️⃣ It Has a Mask Automatically
+
+Every adjustment layer comes with a white mask.
+
+White → effect visible
+Black → effect hidden
+Gray → partial effect
+
+2️⃣ Clipping to One Layer
+
+If you don’t want it affecting all layers below:
+
+Hold Alt/Option
+
+Click between layers
+→ Creates a Clipping Mask
+
+3️⃣ Blend Modes Work
+
+Example:
+
+Set Curves to Luminosity to avoid color shift
+Set Gradient Map to Soft Light for cinematic look
+
+Professional Workflow Example
+
+Exposure fix → Curves
+Color correction → Color Balance
+Skin tone adjust → Hue/Saturation (clipped)
+Final contrast → Levels
+
+All editable anytime.
 
 
 
+Core Difference
 
+| Direct Adjustment | Adjustment Layer |
+| ----------------- | ---------------- |
+| Permanent         | Editable anytime |
+| Damages pixels    | Non-destructive  |
+| No mask           | Has mask         |
+
+
+---
 
 #### 📁 New Group
 
@@ -253,6 +328,8 @@ Delete key
 
 or select layer use delete symbol or drab the layer to that symbol
 --- 
+
+========================================================================================
 
 ### Key Layer Properties
 
