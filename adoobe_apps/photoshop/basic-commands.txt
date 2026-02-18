@@ -32,6 +32,7 @@ hold alt (option) and drag to duplicate a layer
 
 alt + click on the layer eye icon =  hide all layers except the selected layer and click on that again to show all layers
 
+hold shift cmd + click and drag in the eye icon area = to enable or disble multipl eye icons
 
 
 you can set opacity of the layer by selecting move tool and numbers 

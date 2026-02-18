@@ -35,6 +35,7 @@ shortcut :- x.   --  to toggle between black and white.
 
 mask works best with smart object which makes a deadly combo of non destructive editing 
 
+***
 use selection tools to select the area you want to mask or can also use brush 
 
 cmd + i by selecting the mask = invert the mask  or can directly create opposite mask by using alt + click on the mask icon 
@@ -43,8 +44,9 @@ cmd + i by selecting the mask = invert the mask  or can directly create opposite
 shift  + click on the mask = disable the mask 
 shift  + click on the mask again = enable the mask 
 
-
 used to see how it looks without mask without deleting completely 
+
+***
 
 two types :- 
 
@@ -58,6 +60,8 @@ Logo cutout → Vector mask
 Product edge → Vector mask
 Shadow fade → Layer mask
 
+
+============================================================================================
 
          mask linking and unlinking 
 
