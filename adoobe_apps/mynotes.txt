@@ -1,8 +1,34 @@
 
 after selection of area and mask if you want to improve the selection of edges just use brush with white or black to improve the selection of edges 
 
+we can use multiple selection tools to at once and can add or subtract from the selection 
+
+ex:- we can use quick selection tool to select the main subject and then use lasso tool to add or subtract from the selection 
+
+shortcuts :- 
+
+shift + selection tool = add to selection
+shift + alt + selection tool = subtract from selection
+ctl + d = deselect any selections
+
+delete or backspace - while making selections using tool that needs to keep points to delete the points press delete key this will delete the last point
+
+sample all layers - while using selection tools if you want to select from all layers then select sample all layers option in the tool options bar
 
 
+select subject - it will select the subject in the image and is only available while using quick selection tool
+
+menu select + sky --- it will select the sky in the image 
+
+select and mask -- this open a selection editor with good options like refine hair and refine edge etc which helps in selection 
+
+menu select + color range -- this will open a color range editor which will select the color range in the image  
+
+menu select + save selection -- this will save the selection in the image  and load to load the saved selection 
+
+menu select + content aware fill -- this will fill the selection with content aware fill
+
+menu select + contract selection -- this will contract the selection by the number of pixels you enter in the tool options bar . used to reduce the light edges of the selection  
 
 ==================================================================================================
 layer are like a stack of images, where each image is called a layer.  
@@ -156,4 +182,19 @@ lasso tools (l) :-
 lasso (freehand) - Draw freeform selections.
 polygonal lasso (straight edges) - Click-based straight-line selections.
 magnetic lasso (edge detection) - Snaps to edges.
+
+
+
+===============================
+
+remove tool is used to remove the unwanted objects from the image 
+it is a ai tool 
+
+you can remove objects , lines , hair , fabric etc 
+just paint over the unwanted object and it will remove it 
+
+options bar we have 
+
+sample all layers:- it will sample all the layers and remove the unwanted object from all the layers
+remove after each stroke:- it will remove the unwanted object after each stroke deselect to paint properly and remove 
 

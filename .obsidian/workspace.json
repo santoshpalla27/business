@@ -15,8 +15,8 @@
               "state": {
                 "file": "research/Untitled.canvas",
                 "viewState": {
-                  "x": -1011.2180291314444,
-                  "y": 1.1950634216277978,
+                  "x": 1.334829432566082,
+                  "y": 1651.6562228809712,
                   "zoom": -0.6372677748494238
                 }
               },
@@ -183,8 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "9e75083db8887c93",
+  "active": "e6c32d9f98fbd71d",
   "lastOpenFiles": [
+    "adoobe_apps/photoshop/workflows/light-to-the-eye.md",
+    "adoobe_apps/photoshop/tools/gradient-tool.md",
     "adoobe_apps/basics.md",
     "adoobe_apps/photoshop",
     "research/moments-of-love/product-display.png",
@@ -233,8 +235,6 @@
     "sublimation/Untitled.canvas",
     "sublimation/sumlimation.md",
     "2026-02-11.md",
-    "laser-engraving/laser-engraving.md",
-    "matel-marking/metal-marking.md",
-    "products/photo-frames.md"
+    "laser-engraving/laser-engraving.md"
   ]
 }

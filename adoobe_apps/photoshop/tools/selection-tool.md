@@ -16,6 +16,115 @@ shift + selection tool = add to selection
 
 shift + alt + selection tool = subtract from selection
 
+sample all layers - while using selection tools if you want to select from all layers then select sample all layers option in the tool options bar
+
+select subject - it will select the subject in the image and is only available while using quick selection tool
+
+menu select + sky --- it will select the sky in the image
+
+menu select + content aware fill -- this will fill the selection with content aware fill
+
+menu select + modify selection -- this will modify the selection by the number of pixels you enter in the tool options bar . used to reduce the light edges of the selection
+
+modify selection has options like contract selection , expand selection , feather selection etc
+
+Select and Mask in Adobe Photoshop
+
+Select and Mask is a dedicated workspace used to create and refine complex selections — especially hair, fur, soft edges, and detailed cutouts.
+
+this is very important tool for selection and masking
+
+in this we have options like refine hair , refine edge brush tool etc
+
+inside select and mask you have refine edge tool (second option)
+
+this tool is used to refine the edges of the selection just select the tool and brush around the edges photoshop does the rest
+
+refine hair - this tool is used to refine the hair of the selection just select the tool and brush around the hair photoshop does the rest . you have this option in select and mask workspace tool bar
+
+How to Open It
+
+You can access it in multiple ways:
+
+Select → Select and Mask
+After making a selection → Click Select and Mask (top options bar)
+Press Ctrl/Cmd + Alt + R
+
+Core Tools Inside Select and Mask
+
+1️⃣ Quick Selection Tool
+Automatically detects edges as you paint.
+
+2️⃣ Refine Edge Brush Tool (Most Important)
+Used for hair, fur, soft edges.
+Paint along edge → Photoshop analyzes texture + transparency.
+
+3️⃣ Brush Tool
+Manually add/remove selection.
+
+4️⃣ Object Selection Tool
+Auto-detects objects using AI.
+
+5️⃣ Lasso Tool
+Manual freehand selection adjustment.
+
+Right Panel Settings (Critical Controls)
+
+Edge Detection
+
+Radius → Expands detection area around edge.
+Smart Radius → Adjusts automatically for hard + soft edges.
+
+Global Refinements
+
+Smooth → Reduces jagged edges
+Feather → Softens edge
+Contrast → Sharpens edge
+Shift Edge → Expands or contracts selection
+
+View Modes (Very Important)
+
+Press F to cycle through:
+
+Onion Skin
+Marching Ants
+Overlay
+On Black
+On White
+Black & White
+
+Professionals often use:
+
+On Black
+On White
+Overlay
+
+Output Options (Final Step)
+
+Bottom right → Output To
+
+Best practice:
+
+✅ Layer Mask (Non-destructive)
+
+New Layer with Mask
+Selection
+New Document
+Always prefer Layer Mask for flexibility.
+
+Professional Workflow (Hair Cutout Example)
+
+Use Select Subject
+Open Select and Mask
+Use Refine Edge Brush on hair
+Adjust Radius + Shift Edge
+Output → Layer Mask
+
+Then manually refine mask using:
+
+Black brush → hide
+White brush → reveal
+
 ---
 
 ## Different Ways of Selection in Adobe Photoshop
