@@ -1,5 +1,10 @@
 
+after selection of area and mask if you want to improve the selection of edges just use brush with white or black to improve the selection of edges 
 
+
+
+
+==================================================================================================
 layer are like a stack of images, where each image is called a layer.  
 
 so this will be easy to edit the image, as we can edit each layer separately.
@@ -8,7 +13,7 @@ so this will be easy to edit the image, as we can edit each layer separately.
 with normal layer if we edit the image, it will lose the qulity will increase and decrease of the image.
 and the changes will be permanent.like erasing or bushes or color correction will be permanent.
 
-------------
+------------------------------------------------------
 
 smart object is like a layer which is protected from the edits and all the edits maded are added kind of adons to the smart object called smart filter
 
@@ -19,7 +24,7 @@ so the changes are not permanent we can edit the smart object again and again.
 
 i we want to make in the smart object then we can double click the smart object layer i will open as normal we make changes save and comeback and changes will be reflected.in tha main section
 
-====================
+=======================================================
              mask 
 
 you can add mask to a layer but clicking the mask option (window with circle in it)  below in the bar
@@ -73,7 +78,7 @@ we can make selection by going that layer and then we can go to other layer and 
 
 
 
-============================================================================================
+------------------------------------------
 
          mask linking and unlinking 
 
@@ -81,7 +86,7 @@ you have a small icon in between layer and mask use that to lock or unlock
 generally if the mask is locked and if we move that layer the mask will not be moved so it will be in the same position .
 so we first unlink the mask and move the layer and then relink the mask  
 
-============================================================================================
+------------------------------------------
 
 mask clipping is used to style the only layer which we want to style. we create a new layer above the masked layer and make the mask clipping to the new layer. and clip this layer with masked layer. now the changes in this layer like color correction or style or some text of background will be applied to the below layer 
 
@@ -114,7 +119,7 @@ adjustment layer controls how image properties are displayed
 the option for blend mode is just beside opacity 
 
 
-
+------------------------------------------
 
                     adjustment layer 
 
@@ -122,3 +127,33 @@ the option for blend mode is just beside opacity
 instead of directly editing styles on the layer which is destrictive editing we use adjustment layer which applies styling to layers below so the main layer doesnt get effected 
 
 you have adjustment layer option at bottom of the layers panel (circle with half black and half white)
+
+
+============================================================
+
+           selection tool
+
+click and hold the tools to get more options 
+
+selection tool is used to select the area which we want 
+then we can mask or remove or create a new layer or remove the selected area from the layer etc 
+
+there are different types of selection tools :-
+
+marquee tools (m) - geometric precision
+lasso tools (l) - manual selection
+quick selection tool (w) - ai brush selection
+object selection tool - modern ai selection
+
+marquee tools (m) :- 
+rectangular marquee - creates rectangular selections.
+elliptical marquee - creates circular/oval selections.
+single row - selects 1-pixel row or column.
+single column - selects 1-pixel row or column.
+
+lasso tools (l) :- 
+
+lasso (freehand) - Draw freeform selections.
+polygonal lasso (straight edges) - Click-based straight-line selections.
+magnetic lasso (edge detection) - Snaps to edges.
+

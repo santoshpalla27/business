@@ -2,6 +2,7 @@
         
 cmd in mac and ctl in windows and option in mac and alt in windows
 
+click and hold the tools to get more options 
 
  x   --  to toggle between black and white. 
 
@@ -11,6 +12,14 @@ cmd in mac and ctl in windows and option in mac and alt in windows
 cmd + z = undo
 cmd + shift + z = redo
 
+
+ctl + d = deselect any selections 
+
+moving around shortcuts 
+
+option + scoll  -- to zoom in and out
+cmd + scoll -- to move the cavas left and right 
+hold space to move canvas
 
 cmd + + = zoom in
 cmd + - = zoom out
