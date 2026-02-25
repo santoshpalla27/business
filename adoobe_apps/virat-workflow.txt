@@ -1,0 +1,9 @@
+first get three pictures
+
+make one image base 
+
+remove background and improve other two images and make them mask 
+
+now the wedding photo with less contrast and blur and place it behind the base image and adjust the mask to get that feel erase accordignly 
+
+and put trophy pic under the base 

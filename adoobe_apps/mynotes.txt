@@ -30,6 +30,11 @@ menu select + content aware fill -- this will fill the selection with content aw
 
 menu select + contract selection -- this will contract the selection by the number of pixels you enter in the tool options bar . used to reduce the light edges of the selection  
 
+
+
+pen tool manuel selection 
+
+while using pen tool after create a line from point to point if you want it to curve use curvature pen tool
 ==================================================================================================
 layer are like a stack of images, where each image is called a layer.  
 
@@ -198,3 +203,34 @@ options bar we have
 sample all layers:- it will sample all the layers and remove the unwanted object from all the layers
 remove after each stroke:- it will remove the unwanted object after each stroke deselect to paint properly and remove 
 
+
+=====================================
+
+blend if controls which area to show up and which area to hide according to the brightness of the image
+
+ex:- removing sky from the image 
+
+ underlying layer 
+
+It controls how your current layer reacts to the layers below it.
+
+Think of it like this:
+
+“Show my top layer only where the bottom layer allows it.”
+
+blend if:- 
+
+so in normal layer the slider is used to hide brighter or darker pixles 
+
+and in underlying the working layer pixles will hide according to the darker or lighet pixles from the below layer 
+
+
+==========================
+
+clone stamp tool 
+
+this is used to fill the area with the same texture or pattern from the other area of the image 
+
+shortcut :- s
+
+its like taking a stamp of one area and stamping it on the other area  

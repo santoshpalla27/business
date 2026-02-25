@@ -1,0 +1,20 @@
+
+first select any selection tool and select the subject  
+
+then adjust the selection using selection tools and 
+
+shift + selection tool = add to selection
+shift + alt + selection tool = subtract from selection
+
+after refining the selection choose select and mask from the tool bar 
+
+(if you are not getting the option of select and mask then you are working on smart object)
+
+
+now in view mode you have options about how to view the image 
+
+and ajust the panels for right selection 
+
+you can use left side tools to refine the selection and 
+
+then output to new layer with mask or what ever you want 

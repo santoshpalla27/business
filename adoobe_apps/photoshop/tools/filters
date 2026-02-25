@@ -1,0 +1,151 @@
+🔹 Main Filter Categories
+1️⃣ Blur Filters
+
+Used to soften or defocus areas.
+
+Common ones:
+
+Gaussian Blur → Smooth, soft blur
+
+Motion Blur → Directional movement effect
+
+Lens Blur → Realistic depth blur
+
+Field Blur (Blur Gallery) → Controlled depth blur
+
+Use cases:
+
+Background blur
+
+Depth of field simulation
+
+Softening harsh details
+
+2️⃣ Sharpen Filters
+
+Increase edge contrast to enhance detail.
+
+Common ones:
+
+Unsharp Mask
+
+Smart Sharpen
+
+High Pass (advanced method)
+
+Use cases:
+
+Product images
+
+Portrait clarity
+
+Print preparation
+
+3️⃣ Noise Filters
+
+Add or reduce grain.
+
+Add Noise
+
+Reduce Noise
+
+Dust & Scratches
+
+Use cases:
+
+Cleaning old images
+
+Adding film grain
+
+Sensor dust cleanup
+
+4️⃣ Distort Filters
+
+Change shape or geometry.
+
+Liquify
+
+Ripple
+
+Twirl
+
+Wave
+
+Use cases:
+
+Face/body adjustments
+
+Creative effects
+
+5️⃣ Stylize Filters
+
+Artistic effects.
+
+Oil Paint
+
+Emboss
+
+Find Edges
+
+Glowing Edges
+
+Use cases:
+
+Graphic design effects
+
+Posters
+
+Creative edits
+
+6️⃣ Camera Raw Filter (Most Powerful)
+
+Acts like a mini Lightroom inside Photoshop.
+
+Includes:
+
+Exposure
+
+Contrast
+
+Color grading
+
+Clarity
+
+Texture
+
+Dehaze
+
+Masking tools
+
+Professional photographers use this heavily.
+
+🔥 Important Concept: Smart Filters
+
+If you convert your layer to a Smart Object before applying filters:
+
+Right-click layer → Convert to Smart Object → Apply Filter
+
+Benefits:
+
+Editable later
+
+Non-destructive
+
+Maskable
+
+Professionals rarely apply filters destructively.
+
+🔎 Filter vs Adjustment Layer
+Filter Adjustment Layer
+Alters pixels directly Adjusts tonal values
+Often destructive Non-destructive
+Blur, distort, stylize Exposure, color, contrast
+⚡ Professional Workflow
+
+Duplicate layer
+
+Convert to Smart Object
+
+Apply Filter
+
+Adjust filter mask if needed

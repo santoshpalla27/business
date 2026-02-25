@@ -1,0 +1,355 @@
+first create a blank file and name it as 
+
+Advanced_Inventory_System
+
+and go to extensions and select app script 
+
+give this name setupInventorySystem 
+
+now copy the below code and paste it in the app script editor 
+
+remove any old and paste this 
+
+function onOpen() {
+  SpreadsheetApp.getUi()
+    .createMenu("Inventory System")
+    .addItem("Setup System", "setupInventorySystem")
+    .addItem("Add New Item", "addNewItemPrompt")
+    .addToUi();
+}
+
+/* =====================================================
+   MAIN INSTALL
+===================================================== */
+
+function setupInventorySystem() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheets = [
+    "Inventory_Master",
+    "Stock_In",
+    "Stock_Out",
+    "Stock_Summary",
+    "Movement_Log",
+    "Inventory_Analytics"
+  ];
+
+  sheets.forEach(name => {
+    const sh = ss.getSheetByName(name);
+    if (sh) ss.deleteSheet(sh);
+  });
+
+  SpreadsheetApp.flush();
+  sheets.forEach(name => ss.insertSheet(name));
+  SpreadsheetApp.flush();
+
+  setupInventoryMaster();
+  setupStockSheets();
+  setupSummary();
+  setupMovementLog();
+  setupAnalytics();
+
+  SpreadsheetApp.getUi().alert("Inventory System Installed Successfully");
+}
+
+/* =====================================================
+   INVENTORY MASTER
+===================================================== */
+
+function setupInventoryMaster() {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Inventory_Master");
+  sh.clear();
+
+  sh.getRange("A1:E1")
+    .setValues([["Item_ID","Item_Name","Category","Unit","Minimum_Stock"]])
+    .setFontWeight("bold")
+    .setFontSize(12)
+    .setHorizontalAlignment("center")
+    .setBackground("#1F4E78")
+    .setFontColor("white");
+
+  sh.setFrozenRows(1);
+  sh.setRowHeight(1, 35);
+  sh.setColumnWidths(1,5,160);
+
+  sh.getRange("A2:E1000")
+    .setHorizontalAlignment("center")
+    .setVerticalAlignment("middle");
+
+  const unitOptions = ["Nos","Kg","Gram","Litre","ML","Meter","Pack","Box","%"];
+
+  const rule = SpreadsheetApp.newDataValidation()
+    .requireValueInList(unitOptions)
+    .setAllowInvalid(false)
+    .build();
+
+  sh.getRange("D2:D1000").setDataValidation(rule);
+}
+
+/* =====================================================
+   STOCK IN / OUT
+===================================================== */
+
+function setupStockSheets() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const master = ss.getSheetByName("Inventory_Master");
+  const itemRange = master.getRange("B2:B");
+
+  ["Stock_In","Stock_Out"].forEach(name => {
+    const sh = ss.getSheetByName(name);
+    sh.clear();
+
+    sh.getRange("A1:D1")
+      .setValues([[
+        "Date",
+        "Item_Name",
+        name=="Stock_In"?"Quantity_In":"Quantity_Out",
+        "Unit"
+      ]])
+      .setFontWeight("bold")
+      .setFontSize(12)
+      .setHorizontalAlignment("center")
+      .setBackground("#1F4E78")
+      .setFontColor("white");
+
+    sh.setFrozenRows(1);
+    sh.setRowHeight(1,35);
+    sh.setColumnWidths(1,4,160);
+
+    sh.getRange("A2:D1000")
+      .setHorizontalAlignment("center")
+      .setVerticalAlignment("middle");
+
+    sh.getRange("A2:A1000")
+      .setNumberFormat("dd-mmm-yyyy");
+
+    const rule = SpreadsheetApp.newDataValidation()
+      .requireValueInRange(itemRange, true)
+      .setAllowInvalid(false)
+      .build();
+
+    sh.getRange("B2:B1000").setDataValidation(rule);
+
+    sh.getRange("D2")
+      .setFormula('=ARRAYFORMULA(IF(B2:B="","",IFERROR(VLOOKUP(B2:B,Inventory_Master!B:D,3,false),"")))');
+  });
+}
+
+/* =====================================================
+   STOCK SUMMARY
+===================================================== */
+
+function setupSummary() {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Stock_Summary");
+  sh.clear();
+
+  sh.getRange("A1:F1")
+    .setValues([[
+      "Item_Name",
+      "Total_In",
+      "Total_Out",
+      "Current_Stock",
+      "Unit",
+      "Minimum_Stock"
+    ]])
+    .setFontWeight("bold")
+    .setFontSize(12)
+    .setHorizontalAlignment("center")
+    .setBackground("#1F4E78")
+    .setFontColor("white");
+
+  sh.setFrozenRows(1);
+  sh.setRowHeight(1,35);
+  sh.setColumnWidths(1,6,160);
+
+  sh.getRange("A2")
+    .setFormula('=FILTER(Inventory_Master!B2:B,Inventory_Master!B2:B<>"")');
+
+  sh.getRange("B2")
+    .setFormula('=ARRAYFORMULA(IF(A2:A="","",IFERROR(VLOOKUP(A2:A,QUERY(Stock_In!B:C,"select B,sum(C) where B is not null group by B label sum(C) \'\'",0),2,false),0)))');
+
+  sh.getRange("C2")
+    .setFormula('=ARRAYFORMULA(IF(A2:A="","",IFERROR(VLOOKUP(A2:A,QUERY(Stock_Out!B:C,"select B,sum(C) where B is not null group by B label sum(C) \'\'",0),2,false),0)))');
+
+  sh.getRange("D2")
+    .setFormula('=ARRAYFORMULA(IF(A2:A="","",B2:B-C2:C))');
+
+  sh.getRange("E2")
+    .setFormula('=ARRAYFORMULA(IF(A2:A="","",IFERROR(VLOOKUP(A2:A,Inventory_Master!B:D,3,false),"")))');
+
+  sh.getRange("F2")
+    .setFormula('=ARRAYFORMULA(IF(A2:A="","",IFERROR(VLOOKUP(A2:A,Inventory_Master!B:E,4,false),0)))');
+
+  sh.getRange("A2:F1000")
+    .setHorizontalAlignment("center")
+    .setVerticalAlignment("middle");
+
+  const rule = SpreadsheetApp.newConditionalFormatRule()
+    .whenFormulaSatisfied('=AND($A2<>"",$D2<=$F2)')
+    .setBackground("#FCE8E6")
+    .setRanges([sh.getRange("D2:D1000")])
+    .build();
+
+  sh.setConditionalFormatRules([rule]);
+}
+
+/* =====================================================
+   MOVEMENT LOG
+===================================================== */
+
+function setupMovementLog() {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Movement_Log");
+  sh.clear();
+
+  sh.getRange("A1:F1")
+    .setValues([["Timestamp","Type","Item_Name","Quantity","Unit","User"]])
+    .setFontWeight("bold")
+    .setFontSize(12)
+    .setHorizontalAlignment("center")
+    .setBackground("#1F4E78")
+    .setFontColor("white");
+
+  sh.setFrozenRows(1);
+  sh.setRowHeight(1,35);
+  sh.setColumnWidths(1,6,170);
+
+  sh.getRange("A2:F1000")
+    .setHorizontalAlignment("center")
+    .setVerticalAlignment("middle");
+
+  sh.getRange("A2:A1000")
+    .setNumberFormat("dd-mmm-yyyy hh:mm");
+}
+
+/* =====================================================
+   AUTO DATE + LOGGING
+===================================================== */
+
+function onEdit(e) {
+  const sh = e.source.getActiveSheet();
+  const name = sh.getName();
+
+  if (name !== "Stock_In" && name !== "Stock_Out") return;
+  if (e.range.getRow() < 2) return;
+
+  const row = e.range.getRow();
+
+  const dateCell = sh.getRange(row,1);
+  const item = sh.getRange(row,2).getValue();
+  const qty = sh.getRange(row,3).getValue();
+  const unit = sh.getRange(row,4).getValue();
+
+  if (!dateCell.getValue() && item && qty) {
+    dateCell.setValue(new Date());
+  }
+
+  if (e.range.getColumn() !== 3) return;
+  if (!item || !qty) return;
+
+  const log = e.source.getSheetByName("Movement_Log");
+
+  log.appendRow([
+    new Date(),
+    name === "Stock_In" ? "IN" : "OUT",
+    item,
+    qty,
+    unit,
+    Session.getActiveUser().getEmail()
+  ]);
+}
+
+/* =====================================================
+   INVENTORY ANALYTICS DASHBOARD
+===================================================== */
+
+function setupAnalytics() {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Inventory_Analytics");
+  sh.clear();
+
+  sh.getRange("A1:J1").merge();
+  sh.getRange("A1")
+    .setValue("Inventory Analytics Dashboard")
+    .setFontSize(24)
+    .setFontWeight("bold")
+    .setHorizontalAlignment("center")
+    .setBackground("#1F4E78")
+    .setFontColor("white");
+
+  sh.setRowHeight(1,45);
+
+  sh.getRange("A3:A7").setValues([
+    ["Total Items"],
+    ["Total Stock In"],
+    ["Total Stock Out"],
+    ["Net Current Stock"],
+    ["Low Stock Count"]
+  ]).setFontWeight("bold");
+
+  sh.getRange("B3").setFormula('=COUNTA(Inventory_Master!B2:B)');
+  sh.getRange("B4").setFormula('=SUM(Stock_In!C2:C)');
+  sh.getRange("B5").setFormula('=SUM(Stock_Out!C2:C)');
+  sh.getRange("B6").setFormula('=SUM(Stock_Summary!D2:D)');
+  sh.getRange("B7").setFormula('=SUMPRODUCT((Stock_Summary!D2:D<=Stock_Summary!F2:F)*(Stock_Summary!A2:A<>""))');
+
+  sh.getRange("A3:B7")
+    .setBackground("#E8F0FE")
+    .setHorizontalAlignment("center")
+    .setBorder(true,true,true,true,true,true);
+
+  sh.getRange("A10").setValue("Low Stock Alerts").setFontSize(16).setFontWeight("bold");
+
+  sh.getRange("A11:D11")
+    .setValues([["Item_Name","Current_Stock","Minimum_Stock","Shortage"]])
+    .setFontWeight("bold")
+    .setBackground("#FCE8E6")
+    .setHorizontalAlignment("center");
+
+  sh.getRange("A12")
+    .setFormula('=IF(COUNTA(Stock_Summary!A2:A)=0,"No Low Stock Items",IFERROR(FILTER({Stock_Summary!A2:A,Stock_Summary!D2:D,Stock_Summary!F2:F,Stock_Summary!F2:F-Stock_Summary!D2:D},Stock_Summary!A2:A<>"",Stock_Summary!D2:D<=Stock_Summary!F2:F),"No Low Stock Items"))');
+
+  sh.getRange("A25").setValue("Today's Stock In").setFontSize(16).setFontWeight("bold");
+  sh.getRange("A26:C26").setValues([["Item_Name","Quantity","Unit"]])
+    .setFontWeight("bold")
+    .setBackground("#E8F0FE");
+
+  sh.getRange("A27")
+    .setFormula('=IFERROR(FILTER(Stock_In!B2:D,INT(Stock_In!A2:A)=TODAY()),"No Stock In Today")');
+
+  sh.getRange("E25").setValue("Today's Stock Out").setFontSize(16).setFontWeight("bold");
+  sh.getRange("E26:G26").setValues([["Item_Name","Quantity","Unit"]])
+    .setFontWeight("bold")
+    .setBackground("#FCE8E6");
+
+  sh.getRange("E27")
+    .setFormula('=IFERROR(FILTER(Stock_Out!B2:D,INT(Stock_Out!A2:A)=TODAY()),"No Stock Out Today")');
+
+  sh.setColumnWidths(1,10,150);
+}
+
+/* =====================================================
+   ADD ITEM
+===================================================== */
+
+function addNewItemPrompt() {
+  const ui = SpreadsheetApp.getUi();
+  const response = ui.prompt("Enter New Item Name:");
+
+  if (response.getSelectedButton() == ui.Button.OK) {
+    const itemName = response.getResponseText();
+    const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Inventory_Master");
+    const lastRow = sh.getLastRow() + 1;
+    const itemId = "ITM" + Utilities.formatString("%03d", lastRow - 1);
+
+    sh.getRange(lastRow,1).setValue(itemId);
+    sh.getRange(lastRow,2).setValue(itemName);
+    sh.getRange(lastRow,5).setValue(5);
+  }
+}
+
+save it , run , authroise
+
+-------
+
+now go to execl refresh and you will see a new menu called inventory 
+
+click on it and select setup
+
