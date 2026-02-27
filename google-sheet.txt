@@ -1,16 +1,3 @@
-first create a blank file and name it as 
-
-Advanced_Inventory_System
-
-and go to extensions and select app script 
-
-give this name setupInventorySystem 
-
-now copy the below code and paste it in the app script editor 
-
-remove any old and paste this 
-
-
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu("Inventory System")
@@ -430,12 +417,3 @@ function addNewItemPrompt() {
     ui.alert('Item "' + itemName + '" added successfully!');
   }
 }
-
-save it , run , authroise
-
--------
-
-now go to execl refresh and you will see a new menu called inventory 
-
-click on it and select setup
-
