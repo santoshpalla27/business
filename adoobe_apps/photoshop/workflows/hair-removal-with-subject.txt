@@ -1,0 +1,189 @@
+CHANNEL-BASED HAIR MASK — STEP-BY-STEP
+STEP 1 — Go to Channels Panel
+
+Open Window → Channels
+
+You will see:
+
+RGB
+
+Red
+
+Green
+
+Blue
+
+Click each channel individually.
+
+You are looking for:
+
+✔ Dark hair
+✔ Light background
+✔ Maximum separation
+
+For beach + sky images like yours, usually Blue channel has the most contrast.
+
+STEP 2 — Duplicate the Best Channel
+
+Drag that channel (likely Blue) to the New Channel icon
+
+Rename it: Hair Mask
+
+Now you are working on a grayscale image.
+
+STEP 3 — Increase Contrast (Critical Step)
+
+Press:
+
+Ctrl/Cmd + L → Opens Levels
+
+Goal:
+
+Hair = pure black
+
+Background = pure white
+
+Move:
+
+Black slider right
+
+White slider left
+
+Midtones slightly adjust
+
+DO NOT crush the fine hair strands.
+
+Work slowly.
+
+Click OK.
+
+STEP 4 — Clean Manually With Brush
+
+Now refine manually.
+
+Press B for Brush.
+
+Settings:
+
+Soft round brush
+
+Opacity 100%
+
+Flow 100%
+
+Do this:
+
+• Paint BLACK over solid subject areas (face, clothes, body)
+• Paint WHITE over obvious background
+• Zoom 200–300% for hair
+
+Important:
+Do NOT overpaint flyaway strands.
+
+If needed:
+Use a smaller soft brush at 50% opacity for delicate strands.
+
+STEP 5 — Refine with Dodge & Burn (Advanced Control)
+
+This is optional but powerful.
+
+Select:
+
+Dodge Tool (Highlights) → brighten background
+
+Burn Tool (Shadows) → darken hair
+
+Use low Exposure (5–10%)
+
+This enhances micro contrast in strands without destroying them.
+
+STEP 6 — Load Channel as Selection
+
+Hold:
+
+Ctrl/Cmd + Click on the channel thumbnail
+
+You now have a selection.
+
+Important:
+White = selected.
+
+If selection is reversed:
+
+Shift + Ctrl/Cmd + I to invert.
+
+STEP 7 — Convert to Layer Mask
+
+Go back to Layers panel
+
+Select your image layer
+
+Click Add Layer Mask
+
+Boom — you now have a precise luminance-based mask.
+
+CLEANING HALOS (Backlit Issue Fix)
+
+Because your image is backlit, you'll likely see light glow edges.
+
+To fix:
+
+Option A — Mask Edge Blur
+
+Click the mask
+
+Go to:
+Filter → Blur → Gaussian Blur
+
+Set:
+0.3 – 0.6px
+
+Then:
+Image → Adjustments → Levels
+Adjust slightly to tighten edge.
+
+Option B — Apply Mask Edge Shift
+
+Go to:
+Properties Panel → Mask → Shift Edge
+
+Set:
+
+-2% to -5%
+
+OPTIONAL: Defringe
+
+Layer → Matting → Defringe
+1–2px max.
+
+Why This Works Better Than Refine Edge
+
+Refine Edge:
+
+Uses edge detection + AI estimation
+
+Fails in low-contrast backlight
+
+Channel method:
+
+Uses actual pixel luminance
+
+Preserves fine transparency
+
+Maintains realistic hair falloff
+
+This is what professional compositors use in fashion/advertising retouching.
+
+If You Want Maximum Precision
+
+Next level method:
+
+Duplicate image
+
+Apply Calculations (Blend channels)
+
+Use Apply Image for even stronger mask
+
+Combine with Blend If
+
+But first master this version.

@@ -1,0 +1,3 @@
+frist select the  selection brush tool and paint on the subject and then select selection tool you will get option for select and mask 
+
+now take refine edge bursh tool and paint over the hair and edges to remove the backrgound 
